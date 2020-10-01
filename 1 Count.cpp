@@ -27,7 +27,7 @@ void findZeros(int *arr, int n, int k) {
     for(int i=bestL;i<bestL+bestWindow;i++) {
         if(arr[i]==0)
             arr[i]=1;
-        cout<<arr[i]<<" ";
+        cout<<arr[i]<<"";
     }
     for(int i=bestL+bestWindow;i<n;i++) {
         cout<<arr[i]<<" ";
