@@ -10,7 +10,7 @@ int main() {
     for (i = 0; i < n; i++)
         cin >> arr[i];
 
-    //Two for loof which compare the element of arrays.
+    //Two for loop which compare the element of arrays.
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n-1;j++)
