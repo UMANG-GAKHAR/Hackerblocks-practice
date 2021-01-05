@@ -23,7 +23,7 @@ ll ans(info p[], ll n, ll t, ll i = 0, ll c = 0) {
     return dp[i][c] = max(taken, notTaken);
 }
 
-main() {
+int main() {
     ll t, n;
     cin >> t >> n;
     info p[n];
