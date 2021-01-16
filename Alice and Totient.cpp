@@ -19,9 +19,7 @@ void prime_sieve(){
 p[2]=1;
 return;
 }
-
 void x(){
-    
     for(ll i=0;i<LIMIT;i++)tot[i]=i;
     for(ll i=2;i<LIMIT;i++){
         if(p[i]){
@@ -33,7 +31,6 @@ void x(){
         }
     }
     return;
-
 }
 int main(){
     ll t;
