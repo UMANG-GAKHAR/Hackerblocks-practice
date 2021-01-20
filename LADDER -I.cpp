@@ -20,7 +20,6 @@ int NumberOfWays(vector<int> &cells,int pos,int k){
     if(res!=-1){
         return res;
     }
-
     res=0;
     for(int next_cell=pos+1;next_cell-pos<=k;next_cell++){
         if(next_cell>cells.size())break;
@@ -29,7 +28,6 @@ int NumberOfWays(vector<int> &cells,int pos,int k){
     }
     return res;
 }
-
 signed main(){
     int n,k;
     cin>>n>>k;
