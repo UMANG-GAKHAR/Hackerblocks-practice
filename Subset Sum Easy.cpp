@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
- 
 #define pb push_back
 #define mp make_pair
 #define ll long long
@@ -35,8 +34,6 @@ bool generate_subsequence(ll *a,ll *b,ll n, ll i,ll j)
     
     return false;
 }
- 
- 
 int main()
 {
     ios_base::sync_with_stdio(false);
