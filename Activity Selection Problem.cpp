@@ -1,5 +1,3 @@
-
-
 #include<bits/stdc++.h>
 using namespace std;
 bool mycompare(pair<int,int>a , pair<int,int>b){
