@@ -31,9 +31,6 @@ for (i=0; i < n; i++)
     printf("%d ", arr[i]);
 printf("\n");
 }
-
-
-
 /* Driver program to test insertion sort */
 int main()
 {
