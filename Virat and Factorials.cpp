@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 void multiply(int *a,int &n,int no)
 {
