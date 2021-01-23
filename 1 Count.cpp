@@ -32,7 +32,6 @@ void findZeros(int *arr, int n, int k) {
         cout<<arr[i]<<" ";
     }
 }
-
 int main(int argc, char const *argv[])
 {
     /* code */
