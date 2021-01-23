@@ -16,30 +16,21 @@ ll power(ll a,ll b,ll md = mod)
     } 
     return product%md;
 }
-
-
 ll sum(ll n)
 {
     return ((n*(n+1))/2)%mod;
 }
-
-
 int main()
 {       
     ll n;
     cin>>n;
-
     vector<ll> v(n);
-
     ll pro = 1;
-
     for(int i = 0; i < n; i++)
     {
         cin>>v[i];
         pro = (pro*(v[i]+1))%mod;
     }
-        
-    
     ll ans = 1;
 
     for(int i = 0; i < n; i++)
