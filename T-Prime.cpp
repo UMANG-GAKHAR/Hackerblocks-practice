@@ -21,7 +21,6 @@ int checkperfectsquare(long long n){
         return 0;
     }
 }
-
 int main(){
     calculateprimeflag();
     long long totalnumbers, n;
@@ -37,4 +36,3 @@ int main(){
         }
     }
 }
-
