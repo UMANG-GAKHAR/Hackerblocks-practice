@@ -57,11 +57,8 @@ int main()
             cin >> maze[i][j];
         }
     }
-
     bool ans = ratInMaze(maze,sol,0,0,m-1,n-1);
     if(!ans)
         cout<<"-1";
-
-
     return 0;
 }
