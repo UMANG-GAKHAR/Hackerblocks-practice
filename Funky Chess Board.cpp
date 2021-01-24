@@ -2,9 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 using namespace std;
-
 int n,cols,empty,board[10][10],sum=0,hi;
-
 void set(int i,int j,int count){
     if(i<0 || i>=10 || j<0 || j>=10 || board[i][j] == 0)
         return;
