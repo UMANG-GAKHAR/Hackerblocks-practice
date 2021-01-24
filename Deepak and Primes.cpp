@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 #define 	ff              	first
 #define 	ss              	second
 #define 	int             	long long int
@@ -58,10 +57,5 @@ int32_t main()
 	// }
 	int n; cin >> n;
 	cout << v[n - 1];
-
-
-
 	return 0;
 }
-
-
