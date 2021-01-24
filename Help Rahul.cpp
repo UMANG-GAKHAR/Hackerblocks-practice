@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int Bsearch(int n,int *arr,int key){
 	int s=0;
 	int e=n-1;
@@ -28,8 +27,6 @@ int Bsearch(int n,int *arr,int key){
 	}
 	return -1;
 }
-
-
 int main() {
 	int n;
 	cin>>n;
