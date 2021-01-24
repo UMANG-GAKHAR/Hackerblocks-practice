@@ -32,7 +32,6 @@ bool isMatch(string s, string p) {
                 return false;
         return true;
     }
-
 int main() {
     string s,p;
     cin>>s>>p;
@@ -43,4 +42,3 @@ int main() {
         cout<<"NOT MATCHED";
     }
 }
-
