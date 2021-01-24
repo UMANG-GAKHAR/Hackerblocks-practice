@@ -31,7 +31,6 @@ int main() {
 		    count++;
 		    last=v[i].second;
 		}
-		
 	}
 	cout<<n-count;
 
