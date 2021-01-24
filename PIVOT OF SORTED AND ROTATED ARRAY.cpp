@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int* getArray(int n){
     int *arr = new int[n];
     for(int i = 0; i < n;++i){
@@ -8,7 +7,6 @@ int* getArray(int n){
     }
     return arr;
 }
-
 int findPivot(int *arr,int low,int high){
     if(low>high){
         return -1;
