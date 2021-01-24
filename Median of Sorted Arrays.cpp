@@ -1,11 +1,8 @@
 #include<iostream>
 using namespace std;
-
-
 int median(int *arr1,int *arr2,int n){
 int lo1 = 0,hi1 = n-1;
 int lo2 = 0,hi2 = n-1;
-
 if(n == 1){
     return (arr1[0] + arr2[0]) >> 1;
 }
@@ -36,7 +33,6 @@ while(true){
 }
 return 0;
 }
-
 int main(){
 int arr1[1000],arr2[1000];
 int n ;
@@ -44,11 +40,9 @@ cin>>n;
 for(int i=0;i<n;i++){
     cin>>arr1[i];
 }
-
 for(int i=0;i<n;i++){
     cin>>arr2[i];
 }
-
 cout<<median(arr1,arr2,n)<<endl;
 return 0;
 }
