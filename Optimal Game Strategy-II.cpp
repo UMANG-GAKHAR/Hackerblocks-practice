@@ -1,11 +1,8 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
-
 ll coins[10005];
 ll dp[5000][5000];
-
 ll optimalGame(ll i,ll j){
     if(i > j){
         return 0;
@@ -27,8 +24,6 @@ ll optimalGame(ll i,ll j){
 
     return ans;
 }
-
-
 int main() {
     ll n;
     cin >> n;   
