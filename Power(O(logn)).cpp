@@ -1,7 +1,5 @@
-
 #include<iostream>
 using namespace std;
-
 float power(float x, int y)
 {
     float temp;
@@ -18,7 +16,6 @@ float power(float x, int y)
             return (temp*temp)/x;
     }
 }  
-
 int main() {
     int num,pw;
     cin>>num>>pw;
