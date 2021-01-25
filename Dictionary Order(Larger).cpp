@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void lexicoLarger(string str, string osf, bool flag, string originalString)
 {
     if (str.size() == 0)
