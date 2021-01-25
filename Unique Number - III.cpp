@@ -29,9 +29,5 @@ for(int i=0;i<64;i++){
 }
 //print array
 cout<<ans<<endl;
-
-
 	return 0;
 }
-
-	
