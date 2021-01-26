@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 int main() {
-
 	int n;
 	int a[100005];
 	cin>>n;
