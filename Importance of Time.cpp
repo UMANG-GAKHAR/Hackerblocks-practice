@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int importanceOfTime(queue<int> &q, const vector<int> &arr)
 {
     //arr is the ideal order
@@ -28,7 +27,6 @@ int importanceOfTime(queue<int> &q, const vector<int> &arr)
     }
     return ans;
 }
-
 int main()
 {
     int n;
@@ -46,8 +44,6 @@ int main()
     {
         cin >> v[i];
     }
-
     cout << importanceOfTime(q, v);
-
     return 0;
 }
