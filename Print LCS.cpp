@@ -22,7 +22,6 @@ int cal_seq(int index_1, int index_2) {
        return dp[index_1][index_2];
 
 }
-
 void solve() {
        cin >> s >> t;
        memset(dp, -1, sizeof(dp));
@@ -39,10 +38,6 @@ void solve() {
        reverse(ans.begin(), ans.end());
        for (auto i : ans)      cout << i;
 }
-
-
-
-
 signed main()
 {
        solve();
