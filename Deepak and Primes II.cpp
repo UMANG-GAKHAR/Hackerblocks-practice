@@ -3,7 +3,6 @@ using namespace std;
 const int N = 100000;
 int pr[N+5] = {0};
 vector<int> primes;
-
 void seive()
 {
     for(int i = 2; i <= N; i++)
