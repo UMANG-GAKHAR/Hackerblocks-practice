@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
-
 bool func(ll *a,ll n,ll k,ll mid){
 	ll start = 0;
 	ll painter = 1;
