@@ -25,10 +25,8 @@ int lcsOf3( string X, string Y, string Z, int m,
             } 
         } 
     } 
-
     return L[m][n][o]; 
 } 
-
 int main() 
 { 
     string a,b,c;
@@ -37,6 +35,5 @@ int main()
     int n = b.length(); 
     int o = c.length(); 
     cout <<lcsOf3(a,b,c, m, n, o); 
-
     return 0; 
  }
