@@ -36,7 +36,6 @@ void bigFactorial(int numbers)
     }
     delete[] a;
     return;
-    
 }
 
 int main()
@@ -44,6 +43,5 @@ int main()
     int n;
     cin>>n;
    bigFactorial(n);
-   
    return 0;
 }
