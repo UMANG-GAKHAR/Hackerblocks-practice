@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define boost  ios_base::sync_with_stdio(false);
 #define endl '\n'
 #define mp make_pair
@@ -19,9 +18,6 @@ using namespace std;
 #define PIE 3.141592653589793238
 
 ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
-
-/*..................................................................................................................................*/
-
 ll mod;
 ll powmod(ll a,ll b) 
 {
@@ -38,7 +34,6 @@ ll powmod(ll a,ll b)
         }
     return res;
 }
-
 int main()
 {   
     int a,b;cin>>a>>b>>mod;
