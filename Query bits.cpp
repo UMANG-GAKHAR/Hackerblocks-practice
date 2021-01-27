@@ -4,15 +4,11 @@
 #define inf 1000000000000000000ll
 #define logn 20
 #define mod 1000000007ll
- 
 using namespace std;
-
 ll pow(ll a,ll p,ll m=mod)
 {ll res=1;while(p>0){if(p&1)res=(res*a)%m;a=(a*a)%m;p>>=1;}
 return res;}
-
 ll t[nn<<2],lz[nn<<2];
-
 void lazy_up(int node,int st,int en)
 {
     if(lz[node]!=-1)
