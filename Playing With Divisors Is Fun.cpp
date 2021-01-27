@@ -37,9 +37,6 @@ int main()
     {
         ans = (ans*(1+((sum(v[i])*((pro*power(v[i]+1,mod-2))%mod))%mod)))%mod;
     }
-
     cout<<ans<<endl;
-
-
     return 0;
 }   
