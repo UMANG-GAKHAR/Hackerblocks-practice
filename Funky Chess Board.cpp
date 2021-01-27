@@ -21,7 +21,6 @@ void set(int i,int j,int count){
     board[i][j] = 1;//sets (i,j) cell again(backtracking)
 }
 int main(){
-
     cin>>n;
     sum = 0;
 
