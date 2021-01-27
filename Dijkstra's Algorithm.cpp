@@ -12,8 +12,6 @@
 #include <cstring>
 #include <ctime>
 #include <cassert>
-
-
 using namespace std;
 
 const int N = 3000;
@@ -83,7 +81,3 @@ int main()
     }
     return 0;
 }
-
-
-
-    
