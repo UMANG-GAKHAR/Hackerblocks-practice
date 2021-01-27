@@ -26,13 +26,10 @@ using namespace std;
 #define forI(i,a,n)       for(int i=a;i<=n;i++)
 #define forD(i,a,n)       for(int i=n;i>=a;i--)
 mt19937                 rng(chrono::steady_clock::now().time_since_epoch().count());
- 
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
- 
 void init(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 }
-
 unordered_map<string, int> beverage;
 map<int, string> revbeverage;
 vector<int> g[1005];
@@ -90,7 +87,6 @@ void solve(int n){
 	revbeverage.clear();
 	for(int i=0;i<1005;i++){ g[i].clear();  }
 }
-
 int32_t main(){
     init();
 
@@ -101,6 +97,5 @@ int32_t main(){
         cout<<endl;
         t++;
     }
-
     return 0;
 }
