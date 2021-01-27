@@ -3,7 +3,6 @@ using namespace std;
 #define ll long long
 #define ld long double
 #define vll vector<ll>
-
 vll primes;
 vll seive;
 vll divisors;
@@ -40,4 +39,3 @@ int main()
 	}
 
 }
-
