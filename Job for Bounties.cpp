@@ -30,8 +30,6 @@ int main(){
             stck.pop();//pop '(' from stack
         }
     }
-
     cout<<ans;
-
     return 0;
 }
