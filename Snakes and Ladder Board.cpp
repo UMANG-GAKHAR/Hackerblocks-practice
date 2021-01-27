@@ -1,15 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 template <typename T>
-
 class Graph{
 	map< T, list<T > > l;
-
 public:
 	void addedge(T u,T v){
 		l[u].push_back(v);
-
 	}
 
 	void bfs(T src,T dest){
@@ -71,6 +67,3 @@ int main(){
     }
 	return 0;
 }
-
-
-
