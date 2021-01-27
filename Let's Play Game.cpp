@@ -27,10 +27,8 @@ using namespace std;
 #define  rev(x) reverse(begin(x),end(x))
 #define  db(x) cout<<#x <<" : "<< x <<endl;
 #define time() cerr << "Time : " << (double)clock() / (double)CLOCKS_PER_SEC << "s\n"
- 
 const int inf = 0x3f3f3f3f;
 const int INF = 0x3f3f3f3f3f3f3f3f;
- 
 int n,m,k;
 vi adj[N];
 int vis[N],par[N],a[N],dp[N];
