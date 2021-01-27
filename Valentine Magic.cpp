@@ -23,7 +23,6 @@ ll valentine(vector<ll> &choc,vector<ll> &candy,ll i,ll j){
 
     return dp[i][j]; 
 }
-
 int main() {
     ll n ; //No of boys
     ll m ; //No of girls
@@ -40,14 +39,10 @@ int main() {
         cin >> x;
         candy.push_back(x);
     }
-
     memset(dp,-1,sizeof(dp));
-
     sort(choc.begin(),choc.end());
     sort(candy.begin(),candy.end());
 
     cout << valentine(choc,candy,0,0) ;
-
-
     return 0;
 }
