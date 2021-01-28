@@ -17,8 +17,6 @@ int main(){
             {
                 cout<<"*";
             }
-
-
         }
         else{
 
@@ -30,7 +28,5 @@ int main(){
             cout<<" *";
         }
         cout<<endl;
-
     }
-
 }
