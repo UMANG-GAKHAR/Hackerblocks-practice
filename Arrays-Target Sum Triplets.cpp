@@ -1,7 +1,6 @@
 //C++ Code
 #include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
     int n;
@@ -11,13 +10,9 @@ int main()
     {
         cin >> a[i];
     }
-
     int target;
     cin >> target;
-
     sort(a, a + n);
-
-
     for (int i = 0; i < n; i++)
     {
         int l = i + 1;
@@ -33,9 +28,8 @@ int main()
             else if (a[i] + a[l] + a[r] < target)
                 l++;
             else
-                r--;
+               r--;
         }
     }
-
     return 0;
 }
