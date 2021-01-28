@@ -10,7 +10,6 @@ int main ()
        // work for numbers
         for (j = 1; j <= i; j++)
             cout << j;
-
        // work for stars
         for (j = 1; j <= n - i; j++)
             cout << "*";
