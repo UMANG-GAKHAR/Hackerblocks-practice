@@ -5,9 +5,7 @@ int main ()
     int i, j;
     int n;
     cin >> n;
-
     cout << "*";
-
     // work for first row
     for (i = 1; i <= (n+1)/2 - 2; i++)
         cout << " ";
