@@ -1,16 +1,30 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-int n,i,j,val;
-cin>>n;
-cout<<1<<endl;
-for(i=1;i<n;i++){
-        for(j=0;j<=i;j++){
-           cout<<i<<" ";
+    int i, j,x = -1;
+    int n;
+    cin >> n;
+    // Loop for each row
+    for (i = 1; i <= n; i++)
+    {
+        if (x < 1)
+        {
+            for (j = 1; j <= i; j++)
+                cout << "1";
         }
-        cout<<endl;
-}
-cout<<1<<endl;
-return 0;
+        else
+        {
+           for (j = 1; j <= i; j++)
+           {
+               if(j==1 || j==i)     
+                cout << i-1;        // for 1st and last element of a row
+               else
+                cout << "0";        // for in between elements of a row
+           }
+        }
+        cout << endl;
+        x++;
+    }
+    return 0;
 }
