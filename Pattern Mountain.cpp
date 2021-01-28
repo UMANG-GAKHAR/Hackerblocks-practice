@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int main() {
   int n;
   cin >> n;
@@ -10,7 +9,6 @@ int main() {
         cout << j << "\t";
       } else
         cout << "\t";
-
     }
     if (i == n) {
       for (int l = n - 1; l >= 1; l--) {
@@ -18,7 +16,6 @@ int main() {
           cout << l << "\t";
         } else
           cout << "\t";
-
       }
     } else {
       for (int l = n - 1; l >= 1; l--) {
@@ -26,7 +23,6 @@ int main() {
           cout << l << "\t";
         } else
           cout << "\t";
-
       }
     }
 
