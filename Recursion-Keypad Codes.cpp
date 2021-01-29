@@ -1,12 +1,8 @@
-
 #include <iostream>
 #include <cstring>
 using namespace std;
-
 string keypad[] = {"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wx", "yz"};
-
 int count = 0;
-
 void keypadCode(string inp, string out, int i)
 {
     //Base case
