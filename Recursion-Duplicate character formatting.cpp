@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 string duplicateChar(string s)
 {
     if (s.size() <= 1)
@@ -17,13 +16,10 @@ string duplicateChar(string s)
 
     return s[0] + ros;
 }
-
 int main()
 {
     string s;
     cin >> s;
-
     cout << duplicateChar(s) << endl;
-
     return 0;
 }
