@@ -26,12 +26,10 @@ int main ()
 
         cout << endl;
     }
-
     //work for middle row
     for (i = 1; i <= n; i++)
         cout <<"*";
     cout << endl;
-
     //work till last row
     for (i = 1; i <= (n+1)/2 - 2; i++)
     {
@@ -47,14 +45,11 @@ int main ()
 
         cout << endl;
     }
-
     //work of last row
     for (i = 1; i <= (n+1)/2; i++)
         cout << "*";
-
     for (i = 1; i <= (n+1)/2 - 2; i++)
         cout << " ";
-
     cout <<"*";
     return 0;
 }
