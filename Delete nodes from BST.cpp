@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class node
 {
 public:
@@ -15,7 +14,6 @@ public:
         right = NULL;
     }
 };
-
 //Accepts the old root node & data and returns the new root node
 node *insertInBST(node *root, int data)
 {
@@ -35,7 +33,6 @@ node *insertInBST(node *root, int data)
     }
     return root;
 }
-
 node *deleteInBST(node *root, int data)
 {
     if (root == NULL)
@@ -86,7 +83,6 @@ node *deleteInBST(node *root, int data)
         return root;
     }
 }
-
 void printPreOrder(node *root)
 {
     if (root == NULL)
@@ -114,20 +110,16 @@ int main()
             cin >> x;
             root = insertInBST(root, x);
         }
-
         int m;
         cin >> m;
-
         while (m--)
         {
             int temp;
             cin >> temp;
             root = deleteInBST(root, temp);
         }
-
         printPreOrder(root);
         cout << endl;
     }
-
     return 0;
 }
