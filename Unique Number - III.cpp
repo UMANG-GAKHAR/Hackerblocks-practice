@@ -1,11 +1,9 @@
 #include<iostream>
 using namespace std;
 int main() {
-
 	int cnt[64]={0};
 	int n,no;
 	cin>>n;
-
 	for(int i=0;i<n;i++){
 		cin>>no;
 		//update cnt array
@@ -16,7 +14,6 @@ int main() {
 			j++;
 			no=no>>1;
 		}
-
 	}
 //iterate over the arraaay
 int p=1;
