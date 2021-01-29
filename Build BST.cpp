@@ -1,6 +1,5 @@
 #include<bits/stdc++.h> 
 using namespace std;
-
 class node{
     public:
         int data;
@@ -41,7 +40,6 @@ node* buildBalancedBst(int l,int r,int arr[]){
     root->right=buildBalancedBst(mid+1,r,arr);
     return root;
 }
-
 void printBST(node *root){
     if(root==NULL){
         return;
@@ -51,7 +49,6 @@ void printBST(node *root){
     printBST(root->left);
     printBST(root->right);
 }
-
 int main() {
    int t;
    cin>>t;
