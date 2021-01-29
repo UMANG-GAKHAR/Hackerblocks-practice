@@ -25,7 +25,6 @@ int main() {
           cout << "\t";
       }
     }
-
     cout << endl;
   }
   return 0;
