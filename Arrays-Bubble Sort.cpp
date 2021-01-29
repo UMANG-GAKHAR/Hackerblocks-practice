@@ -5,11 +5,9 @@ int main() {
     cin >> n;
     long long int i,j,k;
     long long int arr[n];
-
     //Input from the user
     for (i = 0; i < n; i++)
         cin >> arr[i];
-
     //Two for loop which compare the element of arrays.
     for (i = 0; i < n; i++)
     {
@@ -23,10 +21,8 @@ int main() {
             }
         }
     }
-
     //Print required Output
     for (i = 0; i < n; i++)
         cout << arr[i] << endl;
-
     return 0;
 }
