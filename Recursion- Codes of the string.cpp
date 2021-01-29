@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 void rec(char *s,int i,char *out,int j,string *output,int &k){
     if(s[i]=='\0'){
         out[j]='\0';
@@ -16,7 +15,6 @@ void rec(char *s,int i,char *out,int j,string *output,int &k){
         rec(s,i+2,out,j+1,output,k);
     }
 }
-
 int main() {
     char s[10000],out[10000];
     cin>>s;
