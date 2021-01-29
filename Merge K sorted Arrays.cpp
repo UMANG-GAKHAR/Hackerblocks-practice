@@ -1,17 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define ppi pair<int, pair<int, int>> 
-
 vector<int> mergeKSortedArrays(vector<vector<int>> v)
 {
     int k = v.size();
     int n = v[0].size();
-
     vector<int> res;
-
     priority_queue<ppi, vector<ppi>, greater<ppi>> pq;
-
     for (int i = 0; i < k; i++)
     {
         //Push the first elements of all the rows into the PQ with their row and column number
@@ -50,13 +45,11 @@ int main()
             cin >> v[i][j];
         }
     }
-
     vector<int> res = mergeKSortedArrays(v);
 
     for (int x : res)
     {
         cout << x << " ";
     }
-
     return 0;
 }
