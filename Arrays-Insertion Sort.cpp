@@ -22,7 +22,6 @@ for (i = 1; i < n; i++)
     arr[j+1] = key;
 }
 }
-
 // A utility function to print an array of size n
 void printArray(long long int arr[],long long int n)
 {
@@ -43,6 +42,5 @@ int main()
 
     insertionSort(arr, n);
     printArray(arr, n);
-
     return 0;
 }
