@@ -22,7 +22,6 @@ for(int i=0;i<64;i++){
 	cnt[i] %=3;
 	ans+=(cnt[i]*p);
 	p=p<<1;
-
 }
 //print array
 cout<<ans<<endl;
