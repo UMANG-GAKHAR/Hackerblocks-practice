@@ -17,11 +17,9 @@ bool ratInMaze(char maze[][1005],int sol[][1005],int i,int j,int m,int n)
         cout<<endl;
         return true;
     }
-
     //Rat should be inside the maze
     if(i>m || j>n)
         return false;
-
     //Should not encounter a blocked cell
     if(maze[i][j] == 'X')
         return false;
