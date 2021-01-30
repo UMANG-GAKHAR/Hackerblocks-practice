@@ -15,7 +15,6 @@ int main() {
     int n;
     cin >> n;
     int a[n];
-     
     for( int i = 0 ; i  < n ;i++)
     {
         cin >> a[i];
@@ -37,12 +36,10 @@ int main() {
             ans.push_back(a[i]); // inserting the unique element into the vector
         }
     }
-  
     sort(ans.begin() , ans.end() , mycompare );
     for( int i = 0  ;  i  < ans.size() ; i++)
     {
         cout << ans[i] << endl;
     }
- 
    return 0;
 }
