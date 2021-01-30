@@ -7,7 +7,6 @@ long long happy=0;
 vector<int>master;
 set<int>s;
 int node,edge;
-
 void dfs(int x)
 {
     visited[x]=-1;
@@ -18,22 +17,14 @@ void dfs(int x)
         {
             dfs(adj[x][i]);
         }
-
-
-
     }
 
     visited[x]=1;
     s.insert(x);
 //    cout<<x<<"\t";
-
-
 }
-
 void dfs2(int x,int y)
 {
-
-
 
     visited[x]=-1;
 
@@ -57,13 +48,7 @@ void dfs2(int x,int y)
     }
 //    s.insert(x);
 //    cout<<x<<"\t";
-
-
 }
-
-
-
-
 int main()
 {
     cin>>node>>edge;
@@ -93,21 +78,12 @@ int main()
             s.erase(s.begin(),s.end());
         }
     }
-
-//    for(int i=0;i<master.size();i++)
-//    {
-//        cout<<master[i]<<"\t";
-//
-//    }
-
     for(int i=1;i<=node;i++)
     {
         vector<int>::iterator it;
         it=find(master.begin(),master.end(),i);
         if(it==master.end())
             child_count[i]--;
-
-
     }
 
     for(int i=1;i<=node;i++)
@@ -120,10 +96,8 @@ int main()
         if(visited[master[i]]==0)
         {
             dfs2(master[i],master[i]);
-
         }
     }
     cout<<happy<<endl;
     return 0;
 }
-
