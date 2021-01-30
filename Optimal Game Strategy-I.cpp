@@ -1,10 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define ll long long int
-
 ll coins[40];
-
 ll optimalGame(ll i,ll j){
     if(i > j){
         return 0;
@@ -20,8 +17,6 @@ ll optimalGame(ll i,ll j){
 
     return ans;
 }
-
-
 int main() {
     int n;
     cin >> n;   
@@ -29,8 +24,6 @@ int main() {
     for(int i=0;i<n;i++){
         cin >> coins[i];
     }
-
     cout << optimalGame(0,n-1);
-
     return 0;
 }
