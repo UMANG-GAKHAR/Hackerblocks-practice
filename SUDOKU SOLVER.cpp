@@ -1,10 +1,5 @@
-
-
 #include <bits/stdc++.h>
 using namespace std;
-
-
-
 bool canplace(int arr[][9], int n, int i, int j, int num)
 {
     // check col and rows and boxes.
@@ -15,8 +10,7 @@ bool canplace(int arr[][9], int n, int i, int j, int num)
         {
             return false;
         }
-    }
-   
+    }   
     // box.
     int no = sqrt(n);
     int startrow = (i/no)*no;
@@ -70,7 +64,6 @@ bool sudoku(int arr[][9], int n, int i, int j)
 
     return false;
 }
-
 int main()
 {
     int n;
@@ -83,7 +76,6 @@ int main()
             cin >> arr[i][j];
         }
     }
-
     sudoku(arr, 9, 0, 0);
     return 0;
 }
