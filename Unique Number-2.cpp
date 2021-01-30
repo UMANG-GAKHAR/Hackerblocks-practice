@@ -4,7 +4,6 @@ int main() {
 	int n;
 	int a[100005];
 	cin>>n;
-
 	int no;
 	int res=0;
 	for(int i=0;i<n;i++){
@@ -21,7 +20,6 @@ int main() {
 		temp=temp>>1;
 	}
 	int mask=(1<<pos);
-
 //find those number which contain set bit at position pos
 	int x=0;
 	int y=0;
