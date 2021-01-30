@@ -4,10 +4,8 @@
 #define nn 100100
 #define mp make_pair
 using namespace std;
-
 long long int m[nn];
 long long tree[4*nn],ltree[4*nn],rtree[4*nn],mtree[4*nn];
-
 long long int max(long long int a,long long int b)
 {
     return (a>b)?a:b;
