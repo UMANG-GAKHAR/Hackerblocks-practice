@@ -29,7 +29,6 @@ class DSU{
         }
         //Otherwise
         return parent[i]=find(parent[i]);
-
     }
     //Unite(union)
     void unite(int x,int y)
@@ -96,7 +95,6 @@ class Graph
 
     }
 };
-
 int main()
 {
     /*Graph g(4);
@@ -121,5 +119,4 @@ int main()
     }
     cout<<g.kruksal_mst()<<endl;
     return 0;
-
 }
