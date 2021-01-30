@@ -26,7 +26,6 @@ bool isMatch(string s, string p) {
                 Tmpidx++;
             }
         }
-
         for(int i=idx2;i<plen;i++)
             if(p[i]!='*')
                 return false;
