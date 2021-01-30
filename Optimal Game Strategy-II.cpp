@@ -12,7 +12,6 @@ ll optimalGame(ll i,ll j){
             return dp[i][j];
         }
     }
-
     ll pickFirst = coins[i] + min( optimalGame(i+2,j) , optimalGame(i+1,j-1) ) ;
     ll pickLast = coins[j] + min( optimalGame(i,j-2) , optimalGame(i+1,j-1) ) ;
 
@@ -31,9 +30,7 @@ int main() {
     for(ll i=0;i<n;i++){
         cin >> coins[i];
     }
-
     memset(dp,-1,sizeof(dp)) ;
     cout << optimalGame(0,n-1);
-
     return 0;
 }
