@@ -21,7 +21,6 @@ void Seive(ll n) {
 		}
 	}
 }
-
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -37,5 +36,4 @@ int main()
 		cin >> n;
 		cout << divisors[n] << endl;
 	}
-
 }
