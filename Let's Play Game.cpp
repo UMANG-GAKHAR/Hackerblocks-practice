@@ -45,7 +45,6 @@ void Sieve()
 	}
  
 }
- 
 void go()
 {
 	cin >> n;
@@ -64,12 +63,9 @@ void go()
  
 		dp[i] = k;
 	}
- 
 	fo(i,0,n+1) ans += dp[i];
- 
 	cout << ans << endl;
 }
- 
 int32_t main()
 {
 
