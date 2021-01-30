@@ -27,7 +27,6 @@ int findPivot(int *arr,int low,int high){
     }
     return findPivot(arr,mid+1,high);
 }
-
 int main() {
     int n;
     cin>>n;
