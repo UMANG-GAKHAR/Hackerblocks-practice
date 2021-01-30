@@ -29,7 +29,6 @@ void lexicoLarger(string str, string osf, bool flag, string originalString)
         }
     }
 }
-
 int main(int argc, char const *argv[])
 {
     string str;
