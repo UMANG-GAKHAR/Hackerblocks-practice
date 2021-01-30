@@ -15,6 +15,5 @@ int main(int argc, char* argv[])
         result=result<<1;
     }
     cout<<result-1;
-
     return 0;
 }
