@@ -3,7 +3,6 @@ using namespace std;
 typedef long long ll;
 ll board[1000][10000];
 ll N;
-
 bool check(ll i, ll j){
     if(i-2>=0 && j+1>=0 && i-2<N && j+1<N && board[i-2][j+1]==1)
         return false;
@@ -35,7 +34,6 @@ bool solve(int cnt, int i, int j){
         return false;
     }
     if(cnt == N){
-
         //totalCongigutation++;
         for(ll i=0;i<N;i++)
         {
