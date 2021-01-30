@@ -1,20 +1,15 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 #define ll long long
 #define MOD 1000000007
 #define pb push_back
-
 ll k;
 vector<ll> a,b,c;
-
 //Multiply two matrices
 vector<vector<ll> > multiply(const vector<vector<ll> > &A,const vector<vector<ll> > &B ){
-
     //third matrix mei result store
     vector<vector<ll> > C(k+1,vector<ll>(k+1));
-
     for(int i=1;i<=k;i++){
         for(int j=1;j<=k;j++){
             for(int x=1;x<=k;x++){
@@ -24,12 +19,8 @@ vector<vector<ll> > multiply(const vector<vector<ll> > &A,const vector<vector<ll
 
         }
     }
-
-
     return C;
 }
-
-
 vector<vector<ll> >  pow(const vector<vector<ll> > &A,ll p){
 
     //Base case
@@ -98,31 +89,22 @@ ll compute(ll n){
     for(int i=1;i<=k;i++){
         res = (res + (T[1][i]*F1[i])%MOD)%MOD;
     }
-
     return res;
-
 }
-
 int main() {
-
     ll t,n,num;
-
     k = 2;
     //Init Vector F1
     b.pb(0);
     b.pb(1);
-
     //Coefficients
     c.pb(1);
     c.pb(1);
-
     cin>>t;
     while(t--){
         // the value of n
         cin>>n;
         cout<< compute(n+1)<<endl;
     }
-
     return 0;
-
 }
