@@ -28,7 +28,6 @@ while(true){
     else{
             hi2 = m2;
             lo1 = m1;
-
     }
 }
 return 0;
