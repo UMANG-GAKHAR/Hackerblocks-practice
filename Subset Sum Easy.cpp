@@ -7,7 +7,6 @@ using namespace std;
 #define set(a) memset(a,0,sizeof(a))
 #define MOD 1000000007
 #define test(t) ll t; cin>>t; while(t--)
-
 bool generate_subsequence(ll *a,ll *b,ll n, ll i,ll j)
 {
     //base case;
@@ -43,19 +42,15 @@ int main()
     {
         ll n,i;
         cin>>n;
-
         ll a[n],b[n];
 
         for(i=0;i<n;i++)
             cin>>a[i];
-
-        ll ans=generate_subsequence(a,b,n,0,0);
-        
+        ll ans=generate_subsequence(a,b,n,0,0);   
         if(ans==1)
          cout<<"Yes"<<endl;
         else 
         cout<<"No"<<endl;
     }
-
     return 0;
 }
