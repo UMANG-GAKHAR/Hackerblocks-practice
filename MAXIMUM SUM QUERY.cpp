@@ -10,7 +10,6 @@ long long int max(long long int a,long long int b)
 {
     return (a>b)?a:b;
 }
-
 void build(int node,int st,int en)
 {
     if(st>en)
@@ -28,7 +27,6 @@ void build(int node,int st,int en)
     int mid=(st+en)/2;
     build(2*node+1,st,mid);
     build(2*node +2,mid+1,en);
-
     //check for errors here
     tree[node]=tree[2*node+1]+tree[2*node+2];
     ltree[node]=max(ltree[2*node+1],max(tree[2*node+1],max(tree[2*node+1]+ltree[2*node+2],tree[node])));//this is 100% correct
@@ -66,8 +64,6 @@ pair<pair<long long int,long long int>,pair<long long int,long long int> > query
     return make_pair(make_pair(total,left),make_pair(right,middle));
 
 }
-
-
 int main()
 {
    
