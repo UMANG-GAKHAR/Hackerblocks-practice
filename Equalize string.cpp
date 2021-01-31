@@ -1,11 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int EditDistance(string &a,string &b){
     int n=a.size(),m=b.size();
     int dp[n+1][m+1];
     memset(dp,(int)INT_MAX,sizeof dp);
-
     for(int i=0;i<=n;i++){
         for(int j=0;j<=m;j++){
             if(i==0){
@@ -26,10 +24,8 @@ int EditDistance(string &a,string &b){
             }
         }
     }
-
     return dp[n][m];
 }
-
 int main(){
     string a,b;
     cin>>a>>b;
