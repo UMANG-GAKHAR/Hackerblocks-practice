@@ -20,10 +20,8 @@ int maxScore(vector<int> &a,int l,int r){
         }
     }
     if(!flag)return 0;
-
     return 1+max(maxScore(a,l,ind),maxScore(a,ind+1,r));
 }
-
 signed main() {
     ios_base::sync_with_stdio(NULL);
     cin.tie(0);cout.tie(0);
@@ -41,7 +39,6 @@ signed main() {
             if(i==0)pre[i]=a[i];
             else pre[i]=pre[i-1]+a[i];
         }
-
         printf("%lld\n",maxScore(a,0,n-1));
     }
     return 0;
