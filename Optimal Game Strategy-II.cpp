@@ -26,7 +26,6 @@ ll optimalGame(ll i,ll j){
 int main() {
     ll n;
     cin >> n;   
-
     for(ll i=0;i<n;i++){
         cin >> coins[i];
     }
