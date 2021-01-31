@@ -1,14 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int dp[100001];
-
 const int mod = 1e9+7;
-
 int MOD(int a){
     return (a-((a/mod)*mod));
 }
-
 int NumberOfWays(vector<int> &cells,int pos,int k){
     if(pos>=cells.size() || cells[pos]){
         return 0;
@@ -35,9 +31,6 @@ signed main(){
     for(int i=0;i<n;i++){
         cin>>cells[i];
     }
-
     memset(dp,-1,sizeof dp);
-
     cout<<NumberOfWays(cells,0,k)<<endl;
-
 }
