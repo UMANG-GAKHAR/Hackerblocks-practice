@@ -2,7 +2,6 @@
 using namespace std;
 #define ll long long int
 ll dp[1005][1005];
-
 //Recursive Approach
 ll knapsack(ll n, ll w, ll *weights, ll *prices)
 {
@@ -33,7 +32,6 @@ ll knapsack(ll n, ll w, ll *weights, ll *prices)
 
     return dp[n][w];
 }
-
 int main()
 {
     ll n, w;
@@ -50,10 +48,7 @@ int main()
     {
         cin >> prices[i];
     }
-
     memset(dp, -1, sizeof(dp));
-
     cout << knapsack(n, w, weights, prices);
-
     return 0;
 }
