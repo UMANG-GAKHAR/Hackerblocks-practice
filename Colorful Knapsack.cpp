@@ -76,10 +76,8 @@ ll ansit(ll i,ll siz,ll color){
     return dp[i][siz][color] = myans;
     
 }
-
 void solve()
 {
-    
     cin>>n>>m>>s;
     ll w[n],c[n];
     rep(i,0,n) cin >> w[i];
@@ -91,7 +89,6 @@ void solve()
     cout << (ans>0?s-ans:-1)  << endl;
 
 }
-
 int32_t main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
     int t=1;
