@@ -4,13 +4,9 @@ using namespace std;
 #define f first
 #define int long long
 #define pb push_back
-
 int dp[3005][3005];
 string s, t;
-
-
 int cal_seq(int index_1, int index_2) {
-
        if (index_1 <= 0 || index_2 <= 0 )     return 0;
 
        if (dp[index_1][index_2] != -1)       return dp[index_1][index_2];
