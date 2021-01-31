@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int dp[100][500];
-
 int NumberOfWays(vector<int> &coins,int N,int pos){
     int &res=dp[pos][N];
     if(res!=-1){
@@ -21,7 +19,6 @@ int NumberOfWays(vector<int> &coins,int N,int pos){
         res+=NumberOfWays(coins,N-coins[pos],pos);
     return res; 
 }
-
 signed main(){    
 
     int n,m;
@@ -30,10 +27,7 @@ signed main(){
     for(int i=0;i<n;i++){
         cin>>coins[i];
     }
-
     memset(dp,-1,sizeof dp);
-
     cout<<NumberOfWays(coins,n,0)<<endl;
-
     return 0;
 }
