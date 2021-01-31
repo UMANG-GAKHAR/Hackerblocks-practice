@@ -47,10 +47,8 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-
     memset(dp,-1,sizeof dp);
     cin >> n >> m >> k;
     cin >> a >> b;
     cout << solve(0,0,k,0);
-
 }
