@@ -5,17 +5,12 @@ int dp[2001][2001][6];
 int klcs(int a[],int i,int b[],int j,int k){
 	if(i==-1 or j==-1)
 		return 0;
-	
 	if(dp[i][j][k] != -1){
 		return dp[i][j][k];
 	}
-
-
-
 	if(a[i] == b[j]){
 		return 1+klcs(a,i-1,b,j-1,k);
 	}
-
 	int op1=klcs(a,i-1,b,j,k);
 	int op2=klcs(a,i,b,j-1,k);
 	int op3 = -1;
