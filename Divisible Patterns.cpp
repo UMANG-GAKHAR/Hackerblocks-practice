@@ -2,17 +2,14 @@
 using namespace std;
 #define int long long 
 const int mod = 1e9+7;
-
 void computeLPSArray(string pat, int M, int* lps); 
  vector<int> ind;
 void KMPSearch(string& pat, string& txt) 
 { 
     int M = pat.length(); 
     int N = txt.size(); 
-
     int lps[M]; 
     computeLPSArray(pat, M, lps); 
-
     int i = 0; // index for txt[] 
     int j = 0; // index for pat[] 
     while (i < N) { 
@@ -62,9 +59,7 @@ void computeLPSArray(string pat, int M, int* lps)
         } 
     } 
 } 
-
 int dp[10001][2520];
-
 int fi(int pos,int rem){
     if(pos==ind.size())return (rem==0);
     int &res=dp[pos][rem];
@@ -75,20 +70,16 @@ int fi(int pos,int rem){
     res%=mod;
     return res;
 }
-
 signed main(){
     string pat,txt;
     cin>>pat>>txt;
-
     KMPSearch(pat,txt);
     for(int i=0;i<ind.size();i++){
         ind[i]=ind[i]+1;
     }
     memset(dp,-1,sizeof dp);
-
     int ans=fi(0,1);
     ans=(ans%mod+mod)%mod;
     cout<<ans<<endl;
-
     return 0;
 }
