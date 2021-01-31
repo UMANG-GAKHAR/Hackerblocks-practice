@@ -1,10 +1,8 @@
 #include<bits/stdc++.h>
-
 #define fast ios::sync_with_stdio(false); cin.tie(nullptr); cin.tie(nullptr);
 #define ll long long
 #define mod 1000000007
 #define inf INT_MAX
-
 using namespace std;
 
 int cp(vector<vector<vector<vector<int>>>>& dp, int b, int g, int ab, int ag, int ib = 0, int ig = 0) {
@@ -32,5 +30,4 @@ int main() {
     cin >> b >> g >> ab >> ag;
     vector<vector<vector<vector<int>>>> dp(b + 1, vector<vector<vector<int>>>(g + 1 , vector<vector<int>>(ab + 1, vector<int>(ag + 1, -1))));
     cout << cp(dp, b, g, ab, ag) << endl;
-
 }
