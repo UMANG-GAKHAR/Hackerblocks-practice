@@ -10,12 +10,10 @@ ll knapsack(ll n, ll w, ll *weights, ll *prices)
     {
         return 0;
     }
-
     if (dp[n][w] != -1)
     {
         return dp[n][w];
     }
-
     ll include = 0;
     ll exclude = 0;
 
@@ -24,12 +22,9 @@ ll knapsack(ll n, ll w, ll *weights, ll *prices)
         //Include the current index element
         include = prices[n - 1] + knapsack(n - 1, w - weights[n - 1], weights, prices);
     }
-
     //Exclude the current element
     exclude = knapsack(n - 1, w, weights, prices);
-
     dp[n][w] = max(include, exclude);
-
     return dp[n][w];
 }
 int main()
