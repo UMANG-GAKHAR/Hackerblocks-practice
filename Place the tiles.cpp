@@ -2,9 +2,7 @@
 #include<unordered_set>
 using namespace std;
  #define fio ios_base::sync_with_stdio(false)
-
 #define ll long long int
-
 #define s(x) scanf("%lld",&x)
 #define s2(x,y) s(x)+s(y)
 #define s3(x,y,z) s(x)+s(y)+s(z)
