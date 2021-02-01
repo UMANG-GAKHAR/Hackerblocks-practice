@@ -13,7 +13,6 @@ for (int i = 0;i<t;i++){
 
 	cin>>full[i];
 }
-
 for (int i = 0;i<t;i++){
 	for (int j = i;j<t;j++){
 		if (!comp(full[i],full[j])){
