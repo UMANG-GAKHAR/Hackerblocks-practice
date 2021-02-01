@@ -18,7 +18,6 @@ void phoneKeypad(string inp, string out)
         }
         return;
     }
-
     //Rec case
     char ch = inp[0];
     string ros = inp.substr(1);
@@ -27,12 +26,10 @@ void phoneKeypad(string inp, string out)
     for (int i = 0; i < code.length(); i++)
         phoneKeypad(ros, out + code[i]);
 }
-
 int main()
 {
     string input;
     cin >> input;
-
     string output;
     phoneKeypad(input, output);
     return 0;
