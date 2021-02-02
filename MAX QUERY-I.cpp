@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long int
-
 using namespace std;
-
 ll query(vector<vector<ll>> &tree,int ss,int se,int qs,int qe,int index,ll k)
 {
     if(qe<ss || qs>se)
@@ -59,9 +57,7 @@ int main(int argc, char const *argv[])
     }
 
     BuildTree(tree,arr,0,n-1,1);
-
     cin>>q;
-
     while(q--) 
     {
         int l,r;
@@ -69,9 +65,7 @@ int main(int argc, char const *argv[])
         cin>>l>>r>>k;
         l--;
         r--;
-
         cout<<query(tree,0,n-1,l,r,1,k)<<endl;
-
     }
     return 0;
 }
