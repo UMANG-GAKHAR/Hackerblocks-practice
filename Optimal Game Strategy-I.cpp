@@ -10,7 +10,6 @@ ll optimalGame(ll i,ll j){
     // Since the opponent plays optimally , we would get the minimum of the remaining coins for each choice.
     ll pickFirst = coins[i] + min( optimalGame(i+2,j) , optimalGame(i+1,j-1) ) ;
     ll pickLast = coins[j] + min( optimalGame(i,j-2) , optimalGame(i+1,j-1) ) ;
-
     // Pick the max of two as your final result
     ll ans = max(pickFirst,pickLast);
     return ans;
