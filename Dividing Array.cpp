@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 #define nn 100100
 #define ll long long int
- 
-using namespace std;
- 
+using namespace std; 
 ll a[nn];
  
 int main()
