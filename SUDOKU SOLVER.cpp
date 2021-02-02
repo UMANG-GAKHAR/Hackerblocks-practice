@@ -61,7 +61,6 @@ bool sudoku(int arr[][9], int n, int i, int j)
         }
     }
     arr[i][j] = 0;
-
     return false;
 }
 int main()
