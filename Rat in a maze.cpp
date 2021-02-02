@@ -23,11 +23,9 @@ bool ratInMaze(char maze[][1005],int sol[][1005],int i,int j,int m,int n)
     //Should not encounter a blocked cell
     if(maze[i][j] == 'X')
         return false;
-
     //Recursive case
     //Assume solution exists through current cell
     sol[i][j] = 1;
-
     bool rightSuccess = ratInMaze(maze,sol,i,j+1,m,n);
     if(rightSuccess){
         return true ;
