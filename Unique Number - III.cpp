@@ -15,7 +15,6 @@ int main() {
 			no=no>>1;
 		}
 	}
-//iterate over the arraaay
 int p=1;
 int ans=0;
 for(int i=0;i<64;i++){
