@@ -15,7 +15,6 @@ int main(){
     stack<int> stck;
     int dp[100010] = {0},ans=0;
     //dp[i] stores the length of longest valid substring if it teerminates at ith position
-
     cin>>str;
     for(int i=0;i<str.length();i++){
         if(str[i] == '(')
