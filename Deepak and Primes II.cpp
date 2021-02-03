@@ -20,7 +20,6 @@ void seive()
 
 int main()
 {
-    
     seive();
     int t;
     cin >> t;
