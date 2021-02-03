@@ -10,7 +10,6 @@ using namespace std;
 #define ull unsigned long long
 #define max(a,b) ((a>b)?(a):(b))
 #define min(a,b) ((a<b)?(a):(b))
-
 //values
 #define MAX 100005
 #define inf LLONG_MAX
