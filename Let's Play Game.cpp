@@ -33,7 +33,6 @@ int n,m,k;
 vi adj[N];
 int vis[N],par[N],a[N],dp[N];
 bool sieve[N];
- 
 void Sieve()
 {
 	for(int i=2;i<N;i++)
@@ -43,17 +42,14 @@ void Sieve()
 			for(int j=2*i;j<N;j+=i) sieve[j]=1;
 		}
 	}
- 
 }
 void go()
 {
 	cin >> n;
 	dp[1] = 0;
 	dp[2] = 1;
- 
 	int k=1;
 	int ans=0;
- 
 	fo(i,3,N)
 	{
 		if(!sieve[i])
@@ -68,7 +64,6 @@ void go()
 }
 int32_t main()
 {
-
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	int t=1; 
 	Sieve();
