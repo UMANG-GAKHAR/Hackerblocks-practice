@@ -20,7 +20,6 @@ using namespace std;
 #define MAX 100005
 #define inf LLONG_MAX
 #define MIN INT_MIN
-
 //typedef
 typedef pair<int, int> ii;
 typedef vector<ii> vii;
