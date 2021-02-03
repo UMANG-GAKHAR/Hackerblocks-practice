@@ -37,7 +37,6 @@ void bigFactorial(int numbers)
     delete[] a;
     return;
 }
-
 int main()
 {
     int n;
