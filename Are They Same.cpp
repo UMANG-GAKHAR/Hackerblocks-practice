@@ -2,8 +2,6 @@
 using namespace std;
 bool fun(string s1,string s2)
 {
-    
-    
     string a1,a2,b1,b2;
         if(s1==s2)
             return true;//cout<<"YES"<<endl;
