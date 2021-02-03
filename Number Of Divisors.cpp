@@ -1,7 +1,6 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-
 bool isPrime(long long int num){
     if(num==2){
         return true;
