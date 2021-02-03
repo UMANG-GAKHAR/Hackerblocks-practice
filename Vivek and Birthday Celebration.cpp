@@ -37,5 +37,4 @@ cnt=0;}
 }
 sort(v1.begin(),v1.end());
 cout<<v1[0]<<endl;
-
 }
