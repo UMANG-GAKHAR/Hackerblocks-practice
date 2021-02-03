@@ -2,7 +2,6 @@
 #include <ext/pb_ds/assoc_container.hpp>
 using namespace __gnu_pbds;
 using namespace std;
- 
 #define ff              first
 #define ss              second
 #define int             long long
@@ -68,7 +67,6 @@ void topSort(int n){
     cout<<'.';
 
 }
-
 void solve(int n){
     string b, b1;
     forI(i, 0, n-1){
@@ -81,7 +79,6 @@ void solve(int n){
         cin>>b>>b1;
         g[beverage[b]].pb(beverage[b1]);
     }
-    
     topSort(n);
 	beverage.clear();
 	revbeverage.clear();
