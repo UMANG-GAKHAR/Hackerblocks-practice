@@ -16,7 +16,6 @@ public:
 		adjList[u].push_back(v);
 		adjList[v].push_back(u);
 	}
-
 	void bfsShortestPath(long long int src, long long int n, long long int m)
 	{
 		queue<long long int>q;
@@ -49,7 +48,6 @@ public:
         cout<<endl;
 	}
 };
-
 int main()
 {
 	long long int q;
