@@ -18,7 +18,6 @@ void dfs(int x)
             dfs(adj[x][i]);
         }
     }
-
     visited[x]=1;
     s.insert(x);
 //    cout<<x<<"\t";
