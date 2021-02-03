@@ -19,6 +19,5 @@ int main ()
         n = 365;
     }
     cout << n+1;
-
     return 0;
 }
