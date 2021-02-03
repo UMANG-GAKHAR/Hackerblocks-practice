@@ -5,7 +5,6 @@ using namespace std;
 #define mod 1000000007
 ll fac[MAX+1];
 ll x,y;
-
 ll power(ll a,ll b, ll c)
 {
     if(b==0)
