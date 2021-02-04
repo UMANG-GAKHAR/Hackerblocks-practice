@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define int             long long int
 #define ld              long double
 #define lop(i, a, b)    for (int i = a; i < b; i++)
@@ -73,7 +72,6 @@ void robot(int tim, pii v)
 
      }
 }
-
 int32_t main()
 {
      ios_base::sync_with_stdio(0);
@@ -91,6 +89,5 @@ int32_t main()
           robot(0, {p.x1, p.y1});
           cout << "#" << j << " : " << ans << endl;
      }
-
      return 0;
 }
