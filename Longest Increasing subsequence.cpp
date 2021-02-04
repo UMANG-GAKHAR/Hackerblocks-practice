@@ -1,12 +1,9 @@
 #include<bits/stdc++.h> 
 using namespace std;
-
 int lis( int arr[], int n )  
 {  
     int lis[n]; 
-
     lis[0] = 1;    
-
     /* Compute optimized LIS values in bottom up manner */
     for (int i = 1; i < n; i++ )  
     { 
@@ -19,7 +16,6 @@ int lis( int arr[], int n )
     // Return maximum value in lis[] 
     return *max_element(lis, lis+n); 
 }  
-
 /* Driver program to test above function */
 int main() 
 { 
