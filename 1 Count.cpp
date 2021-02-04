@@ -41,7 +41,6 @@ int main(int argc, char const *argv[])
     for(int i=0;i<n;i++) {
         cin>>arr[i];
     }
-
     findZeros(arr, n, k);
     return 0;
 }
