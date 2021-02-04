@@ -12,7 +12,6 @@ void generateParenthesis(int n, int openB, int closeB, string str) {
         generateParenthesis(n, openB+1, closeB, str+'(');
     }
 }
-
 int main(int argc, char const *argv[])
 {
     int n;    cin >> n;
