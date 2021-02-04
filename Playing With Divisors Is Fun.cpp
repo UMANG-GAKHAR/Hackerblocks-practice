@@ -32,7 +32,6 @@ int main()
         pro = (pro*(v[i]+1))%mod;
     }
     ll ans = 1;
-
     for(int i = 0; i < n; i++)
     {
         ans = (ans*(1+((sum(v[i])*((pro*power(v[i]+1,mod-2))%mod))%mod)))%mod;
