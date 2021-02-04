@@ -1,13 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 long long n,i,j,a[110],dp[110][110],temp,k,l,sum[110][110];
-
 int main(){
 //    freopen("input5.txt","r",stdin);
 //    freopen("output5.txt","w",stdout);
 //    ios::sync_wth_stdio(0);
-
     cin>>n;
     for(i=0;i<n;i++)
         cin>>a[i];
@@ -30,6 +27,5 @@ int main(){
         }
     }
     cout<<dp[0][n-1]<<"\n";
-
     return 0;
 }
