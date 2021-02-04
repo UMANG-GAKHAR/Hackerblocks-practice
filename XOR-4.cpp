@@ -36,15 +36,10 @@ int main(){
                 for (int l=k+1;l<n;++l)
 
                 if ((a[i]^a[j]^a[k]^a[l])==0){
-
                     puts("YES");
-
                     return 0;
-
                 }
 
     puts("NO");
-
     return 0;
-
 } 
