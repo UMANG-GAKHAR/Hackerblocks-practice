@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 long long int fib(long long int n)
 {
     if (n <= 1)
@@ -8,7 +7,6 @@ long long int fib(long long int n)
 
     return fib(n - 1) + fib(n - 2);
 }
-
 int main()
 {
     int testCases;
@@ -21,6 +19,5 @@ int main()
         cin >> n;
         cout << "#" << k++ << " : " << fib(n+2) << endl;
     }
-
     return 0;
 }
