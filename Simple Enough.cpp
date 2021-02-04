@@ -39,5 +39,4 @@ int main(){
         add <<= 1;
     }
     printf("%lld\n", query(1, len, l, r, n));
-
 }
