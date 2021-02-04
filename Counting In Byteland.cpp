@@ -4,8 +4,7 @@
 using namespace std;
 long long matrix[103][103][103] = {0};
 void update(long long n,long long x,long long y,long long z,long long  val) {
-    long long y1,x1;
-
+long long y1,x1;
     while(z <= 102) {
         x1 = x;
         while(x1 <= 102) {
