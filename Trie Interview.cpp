@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std ;
-
 class node {
 public :
     node *left ;
@@ -71,8 +70,6 @@ int main() {
     int lbest[100000] ;
     int rbest[100000] ;
     int left_value = 0,right_value = 0;
-
-
     Trie tl;
     tl.insert(0);
     for(int i=0;i<n;i++){
@@ -81,7 +78,6 @@ int main() {
         lbest[i] = max( (i == 0)? 0 : lbest[i-1] , tl.findMaxXorPair(left_value));
         tl.insert(left_value);
     }
-
     Trie tr ;
     tr.insert(0);
     for(int i=n-1;i>=0;i--){
@@ -91,9 +87,6 @@ int main() {
         int val = rbest[i] + (i == 0 ? INT_MIN : lbest[i - 1]);
         result = max(result,val);
     }
-
-
     cout << result ;
-
     return 0 ;
 }
