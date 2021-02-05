@@ -3,7 +3,6 @@ using namespace std;
 bool mycompare(pair<int,int>a , pair<int,int>b){
 	return a.second<b.second;	
 }
-
 int main() {
 	int t;cin>>t;
 	while(t--){
