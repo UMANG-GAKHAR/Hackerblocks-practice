@@ -16,7 +16,6 @@ int cal_seq(int index_1, int index_2) {
 
        else dp[index_1][index_2] = max(cal_seq(index_1 - 1 , index_2), cal_seq(index_1, index_2 - 1));
        return dp[index_1][index_2];
-
 }
 void solve() {
        cin >> s >> t;
