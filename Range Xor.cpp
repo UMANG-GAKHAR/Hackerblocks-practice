@@ -20,7 +20,6 @@ public:
     trie()
     {
         root = new node();
-	
     }
     void insert(int n,int index){
         node *temp = root;
