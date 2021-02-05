@@ -3,11 +3,8 @@
 #include <string.h>
 #include <string>
 #include <algorithm>
- 
 using namespace std;
- 
 const int MAXN = 155000;
- 
 long long t[MAXN], f[MAXN];
 int n;
 int a[MAXN], w[MAXN];
@@ -52,17 +49,12 @@ long long Work()
 	}
 	return ans;
 }
- 
 int main()
 {
-//	freopen("input.txt", "r", stdin);
-//	freopen("output.txt", "w", stdout);
 	ios::sync_with_stdio(false);
 	int T;
 	cin >> T;
 	for (int tt = 0; tt < T; tt ++)
 		cout << Work() << endl;
- 
 	return 0;
 }
- 
