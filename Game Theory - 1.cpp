@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int	calculateMex(unordered_set<int>Set) {
 	int	Mex	=0;
 	
@@ -9,7 +8,6 @@ int	calculateMex(unordered_set<int>Set) {
 
 	return Mex;
 }
-
 int	calculateGrundy(int	n){
 	if(n==0 || n==1)
 		return 0;
@@ -45,5 +43,4 @@ int main()
 			cout<<1<<endl;
 		}
 	}
-
 }
