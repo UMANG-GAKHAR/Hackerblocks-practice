@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <iostream> 
-using namespace std; 
-  
+using namespace std;  
 long long countStrings(int n) 
 { 
     long long a[n], b[n]; 
@@ -14,7 +13,6 @@ long long countStrings(int n)
     } 
     return a[n-1] + b[n-1]; 
 } 
-
 int main() 
 { int t;
    int n;
@@ -22,10 +20,7 @@ int main()
    while(t--)
    {
 	   cin>>n;
-	    cout << countStrings(n) << endl;
-	   
+	    cout << countStrings(n) << endl;   
    }
-   
-    
     return 0; 
 }
