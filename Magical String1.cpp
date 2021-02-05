@@ -4,7 +4,6 @@ using namespace std;
 #define mod 1000000007
 map<char,ll int> m;
 string s;
-
 ll int dp[1003][1003];
 ll int mini(ll int a,ll int b)
 {
@@ -52,5 +51,4 @@ m[c+i]=e;
 ll int d=ans(0,0,0);
 
 cout<<d<<endl;
-
 }
