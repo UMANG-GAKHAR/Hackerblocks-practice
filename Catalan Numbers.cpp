@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
-
 #define ll long long int
 #define F first
 #define S second
@@ -43,13 +42,3 @@ int main()
         }
     }
 }
-// in python
-// def catalan(n):
-//     ans=1
-//     for i in range(2,n+1):
-//         ans=(ans*(n+i))/i
-//     return int(ans)
-
-
-// n=int(input())
-// print(catalan(n))
