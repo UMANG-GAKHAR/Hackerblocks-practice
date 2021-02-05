@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 bool subsetSum(int *arr, int n, int target) {
     bool **dp = new bool*[n+1];
     for(int i=0;i<=n;i++) {
@@ -24,9 +23,7 @@ bool subsetSum(int *arr, int n, int target) {
         }
     }
     return dp[n][target];
-
 }
-
 int main(int argc, char const *argv[])
 {
     int n, target;
@@ -39,4 +36,3 @@ int main(int argc, char const *argv[])
     else cout<<"No";
     return 0;
 }
-
