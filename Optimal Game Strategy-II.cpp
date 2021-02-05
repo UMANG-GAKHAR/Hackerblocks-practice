@@ -20,7 +20,6 @@ ll optimalGame(ll i,ll j){
     if(i<5000 && j<5000){
         dp[i][j] = ans ; 
     }
-
     return ans;
 }
 int main() {
