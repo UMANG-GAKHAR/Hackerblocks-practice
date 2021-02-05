@@ -1,7 +1,6 @@
 #include<iostream>
 #include<cstdio>
 #include<cstring>
-
 using namespace std;
 
 long long matrix[101][101][101];
@@ -20,7 +19,6 @@ void update(long long n,long long x,long long y,long long z,long long  val) {
         }
         z += (z & -z);
     }
-
 }
 
 long long calculate_sum(long long  x,long long y,long long z) {
@@ -65,7 +63,6 @@ void process(long long n,long long m) {
             //PrintMatrix(n);
 
         }
-
         if(!strcmp(command,"UPDATE")) {
 
             scanf("%lld %lld %lld %lld",&x,&y,&z,&val);
@@ -81,7 +78,6 @@ void process(long long n,long long m) {
             update(n,x,y,z,val -(value1 - value2 ));
 
         }
-
     }
 }
 int main() {
