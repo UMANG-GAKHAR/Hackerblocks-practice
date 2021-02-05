@@ -20,7 +20,6 @@ int NumberOfWays(vector<int> &coins,int N,int pos){
     return res; 
 }
 signed main(){    
-
     int n,m;
     cin>>n>>m;
     vector<int> coins(m);
