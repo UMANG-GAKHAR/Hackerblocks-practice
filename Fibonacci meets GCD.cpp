@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
-
 #define ll long long
 #define pb push_back
 #define M 1000000007
-
 using namespace std;
 
 vector<vector<ll>> mul(vector<vector<ll>> &A,vector<vector<ll>> B){
@@ -17,7 +15,6 @@ vector<vector<ll>> mul(vector<vector<ll>> &A,vector<vector<ll>> B){
     }
     return C;
 }
-
 vector<vector<ll>> pow(vector<vector<ll>> &A,ll p){
     if(p==1)
         return    A;
@@ -81,11 +78,9 @@ ll query(ll *tree,ll ss,ll se,ll qs,ll qe,ll index){
 }
 
 int main(){
-
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-
     ll n,q;
     cin >> n >> q;
     ll inp[n+1];
