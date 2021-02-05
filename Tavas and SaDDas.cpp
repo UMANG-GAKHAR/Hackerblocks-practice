@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 #define int long long
-
 //total numbers of (count) digit numbers below n
 int Digit(int n,int count)
 {
@@ -65,6 +64,5 @@ signed main() {
     }
     else
         cout<<"error";
-    
     return 0;
 }
