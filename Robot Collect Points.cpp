@@ -1,12 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 const int N=20;
 int a[N][N],dp[N][N],b[N][N];
-
 void fill(int x,int n)
 {
-
     for(int i = 0 ; i < n ; i++){
         for(int j = 0 ; j < 5; j++)
             b[i][j] = a[i][j];
@@ -19,7 +16,6 @@ void fill(int x,int n)
         for(int j = 0 ; j < 5 ; j++)
             if(b[i][j] == -1) b[i][j] = 0 ;
     }
-
 }
 
 int hello(int i, int j)
@@ -55,12 +51,9 @@ void solve()
      }
      cout<<ans<<endl;
 }
-
 int32_t main()
-{
-    
+{   
     int t; cin>>t;
     while(t--) solve();
-
     return 0;
 }
