@@ -4,9 +4,7 @@
 #define mod 1000000007
 #define inf INT_MAX
 using namespace std;
-
 int cp(vector<vector<vector<vector<int>>>>& dp, int b, int g, int ab, int ag, int ib = 0, int ig = 0) {
-
     if (!b and !g)
         return 1;
 
