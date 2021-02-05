@@ -4,8 +4,6 @@ using namespace std;
 #define Mod 1000000007
 typedef long long int lli;
 using namespace std;
-
-
 int main()
 {
     lli t;
