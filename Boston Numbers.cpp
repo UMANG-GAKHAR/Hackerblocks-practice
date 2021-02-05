@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
-
 using namespace std;
-
 ll primefactors(ll n, vector<ll> p)
 {
     ll count = 0;
