@@ -17,7 +17,6 @@ void seive()
         }
     }
 }
-
 int main()
 {
     seive();
