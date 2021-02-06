@@ -21,7 +21,6 @@ bool func(ll *a,ll n,ll k,ll mid){
 	}
 	return painter <= k;
 }
-
 int main() {
 	ll p; cin>>p;
 	ll b; cin>>b;
