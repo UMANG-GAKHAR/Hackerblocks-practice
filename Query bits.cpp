@@ -22,7 +22,6 @@ void lazy_up(int node,int st,int en)
         lz[node]=-1;
     }
 }
-
 void update(int node,int st,int en,int l,int r,int x)
 {
     lazy_up(node,st,en); //updating pending lazy updates.
