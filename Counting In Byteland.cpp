@@ -17,9 +17,7 @@ long long y1,x1;
         }
         z += (z & -z);
     }
-
 }
-
 long long calculate_sum(long long  x,long long y,long long z) {
     long long y1,x1,sum=0;
     while (z>0) {
