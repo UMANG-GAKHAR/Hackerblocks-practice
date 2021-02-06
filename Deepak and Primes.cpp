@@ -14,8 +14,6 @@ using namespace std;
 #define 	w(t)            	int t; cin>>t; while(t--)
 
 // // typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
-
-
 void h_g()
 {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
@@ -49,12 +47,6 @@ int32_t main()
 			}
 		}
 	}
-	// for (int i = 0; i <= maxx; ++i)
-	// {
-	// 	if (prime[i] == 1) v.pb(i);
-
-
-	// }
 	int n; cin >> n;
 	cout << v[n - 1];
 	return 0;
