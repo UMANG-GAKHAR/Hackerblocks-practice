@@ -2,7 +2,6 @@
 #include<cstdio>
 #include<cstring>
 using namespace std;
-
 long long matrix[101][101][101];
 void update(long long n,long long x,long long y,long long z,long long  val) {
     long long y1,x1;
