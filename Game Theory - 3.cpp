@@ -18,7 +18,6 @@ using namespace std;
 #define all(v) v.begin(),v.end()
 
 bool primes[1000006];
-
 void sieve()
 {
     for(ll i=3;i*i<=100000;i++)
@@ -30,9 +29,7 @@ void sieve()
         }
     }
 }
-
 vector<int>  divisors[1000006];
-
 void find_div()
 {
     F(i,1,100000)
