@@ -3,7 +3,6 @@
 #define pb push_back
 #define M 1000000007
 using namespace std;
-
 vector<vector<ll>> mul(vector<vector<ll>> &A,vector<vector<ll>> B){
     vector<vector<ll>> C(2,vector<ll>(2));
     for(int i = 0;i<2;i++){
@@ -76,7 +75,6 @@ ll query(ll *tree,ll ss,ll se,ll qs,ll qe,ll index){
     ll rAns=query(tree,mid+1,se,qs,qe,2*index+1);
     return gcd(lAns,rAns);
 }
-
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -85,7 +83,6 @@ int main(){
     cin >> n >> q;
     ll inp[n+1];
     ll tree[4*n+1];
-
     for(ll i = 1;i<=n;i++){
         cin >> inp[i];
     }
