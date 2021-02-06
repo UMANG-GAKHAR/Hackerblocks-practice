@@ -30,7 +30,6 @@ ll findmod(ll a,ll b){
     extendedeuclid(a,b);
     return x;
 }
-
 int main() {
     ll a,b;
     cin>>a;
@@ -38,20 +37,16 @@ int main() {
     b = mod;
 
     // cout<<gcd(a,b)<<endl;
-
     ll c = 45;
-
     if(findmod(a,b) == c){
         cout<<"";
         return 0;
     }
-
     if(x<0){
         cout<<(x+b)<<endl;
     }
     else{
         cout<<x<<endl;
     }
-
     return 0;
 }
