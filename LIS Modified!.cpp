@@ -8,7 +8,6 @@ const int MAXN = 155000;
 long long t[MAXN], f[MAXN];
 int n;
 int a[MAXN], w[MAXN];
- 
 void Add(int z, long long w)
 {
 	z += 1;
