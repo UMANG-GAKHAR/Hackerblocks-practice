@@ -10,7 +10,6 @@ void phoneKeypad(string inp, string out)
         cout << out << "\n";
         return;
     }
-
     //Rec case
     int r = inp[0] - '0';
     for (unsigned int k = 0; k < table[r].length(); k++)
