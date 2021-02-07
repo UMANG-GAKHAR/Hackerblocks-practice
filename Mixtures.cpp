@@ -8,7 +8,6 @@ int main(){
     cin>>n;
     for(i=0;i<n;i++)
         cin>>a[i];
-
     for(i=0;i<n;i++){
         sum[i][i]=temp = a[i];
         for(j=i+1;j<n;j++){
