@@ -23,7 +23,6 @@ using namespace std;
 #define print(a)        for (auto x : a) cout << x << " "; cout << endl
 #define mset(a, b, c)   lop (i, 0, c) a[i] = b
 #define print1(a, n)    lop (i, 0, n) cout << a[i] << " "; cout << endl
-
 inline int pow(int a, int b)
 {
      int x = 1;
