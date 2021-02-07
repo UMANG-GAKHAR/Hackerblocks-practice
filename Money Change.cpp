@@ -21,10 +21,8 @@ int count( int S[], int m, int n )
     for(int i=0; i<m; i++) 
         for(int j=S[i]; j<=n; j++) 
             table[j] += table[j-S[i]],table[j]%=mod; 
-
     return table[n]; 
 }  
-
 void solve(){
     int m;
     cin>>m;
@@ -34,7 +32,6 @@ void solve(){
     cin>>n;
     cout<<count(a,m,n)<<endl;
 }
-
 signed main() {
     int t;
     cin>>t;
