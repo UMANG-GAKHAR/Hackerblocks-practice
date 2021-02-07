@@ -13,8 +13,6 @@ long long int ugly(long long int n)
      {
          next=min(n2,min(n3,n5));
          arr[i]=next;
-         
-
          if(next==n2)
          {
              a2+=1;
