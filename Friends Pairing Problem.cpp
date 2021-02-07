@@ -16,7 +16,6 @@ long long countFriendsPairings(int n)
     }
     return dp[n];
 }
-// Driver code
 int main()
 {
     int n ,t;
