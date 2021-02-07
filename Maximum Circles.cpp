@@ -21,7 +21,6 @@ int main() {
 		v.push_back(make_pair(x-y,x+y));
 	}
 	sort(v.begin(),v.end(),compare);
-
 	long count=1;
 	long last=v[0].second;
 	for(int i=1;i<n;i++)
