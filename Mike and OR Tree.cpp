@@ -1,9 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <climits>
-
 using namespace std;
-
 class Graph{
     int n;
     vector<int>*adj;
