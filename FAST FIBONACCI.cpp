@@ -102,7 +102,6 @@ int main() {
     c.pb(1);
     cin>>t;
     while(t--){
-        // the value of n
         cin>>n;
         cout<< compute(n+1)<<endl;
     }
