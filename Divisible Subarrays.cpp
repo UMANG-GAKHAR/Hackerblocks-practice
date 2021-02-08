@@ -3,7 +3,6 @@
 using namespace std;
 #define ll long
 ll a[1000005],pre[1000005];
-
 int main() {
     int t;
     cin>>t;
