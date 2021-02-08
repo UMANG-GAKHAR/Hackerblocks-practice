@@ -29,8 +29,6 @@ int mod = 1e9 + 7 ;
 ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
 ll powmod(ll a,ll b) {ll res=1;if(a>=mod)a%=mod;for(;b;b>>=1){if(b&1)res=res*a;if(res>=mod)res%=mod;a=a*a;if(a>=mod)a%=mod;}return res;}
 
-/*..................................................................................................................................*/
-
 void multiply(ll F[2][2], ll M[2][2]);
 void power(ll F[2][2], ll n);
 
