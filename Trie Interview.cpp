@@ -8,7 +8,6 @@ public :
         left = right = NULL ; 
     }
 };
-
 class Trie {
 private :
     node *root ;
