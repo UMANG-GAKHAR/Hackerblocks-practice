@@ -3,7 +3,6 @@
 using namespace std;
 #define fio ios_base::sync_with_stdio(false)
 #define ll long long int
-
 #define s(x) scanf("%lld",&x)
 #define s2(x,y) s(x)+s(y)
 #define s3(x,y,z) s(x)+s(y)+s(z)
@@ -26,8 +25,6 @@ ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
 
 int main()
 {
-    // freopen("input.txt","r",stdin);
-     // freopen("output.txt","w",stdout);
     ll t=1;
     //s(t);
     while(t--){
