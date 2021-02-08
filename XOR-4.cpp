@@ -20,7 +20,6 @@ int main(){
         puts("YES");
 
         return 0;
-
     }
      //otherwise, search through the array for all possibles quadruples
     for (int i=0;i<n;++i)
@@ -39,7 +38,6 @@ int main(){
                     puts("YES");
                     return 0;
                 }
-
     puts("NO");
     return 0;
 } 
