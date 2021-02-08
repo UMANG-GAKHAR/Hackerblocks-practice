@@ -22,7 +22,6 @@ int Digit(int n,int count)
     }
     return ans2;
 }
-
 void calc(int n,int count){
 	string str=to_string(n);
 	int ans=0;
@@ -32,9 +31,6 @@ void calc(int n,int count){
 	}
 	cout<<ans<<endl;
 }
-
-
-
 signed main() {
     int n;
     cin>>n;
