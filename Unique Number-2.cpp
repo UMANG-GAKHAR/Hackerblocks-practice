@@ -14,7 +14,6 @@ int main() {
 	//xor=a^b
 	int temp=res;
 	int pos=0;
-
 	while((temp&1)!=1){
 		pos++;
 		temp=temp>>1;
