@@ -9,7 +9,6 @@ string s, t;
 int cal_seq(int index_1, int index_2) {
        if (index_1 <= 0 || index_2 <= 0 )     return 0;
        if (dp[index_1][index_2] != -1)       return dp[index_1][index_2];
-
        if (s[index_1 - 1] == t[index_2 - 1])
               dp[index_1][index_2] = max(dp[index_1][index_2], 1 + cal_seq(index_1 - 1, index_2 - 1));
 
