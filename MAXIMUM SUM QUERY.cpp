@@ -66,7 +66,6 @@ pair<pair<long long int,long long int>,pair<long long int,long long int> > query
 }
 int main()
 {
-   
     int n,q,x,y;
     pair<pair<long long int,long long int>,pair<long long int,long long int> >tmp;
     cin>>n;
