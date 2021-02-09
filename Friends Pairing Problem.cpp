@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-// Returns count of ways n people can remain
-// single or paired up.
 long long countFriendsPairings(int n)
 {
     long long dp[n+1];
