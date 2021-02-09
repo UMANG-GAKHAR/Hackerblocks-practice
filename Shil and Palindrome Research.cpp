@@ -44,14 +44,6 @@ int main()
         cin>>arr[i];
         update(i,arr[i]-'a',n,1);
     }
-    /*F(i,1,n)
-    {
-        F(j,0,25)
-        {
-            cout<<bit[i][j]<<" ";
-        }
-        cout<<endl;
-    }*/
     ll cnt[30];
     memset(cnt,0,sizeof(cnt));
     while(q--)
