@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 #define ROW 1001
 #define COL 1001  
  int M[1001][1001];
@@ -114,7 +113,6 @@ void findMaxSum(int M[][COL])
 
     cout<<maxSum<<endl;
 }  
-
 int main(){
         int t;t=1;
         while(t--){
