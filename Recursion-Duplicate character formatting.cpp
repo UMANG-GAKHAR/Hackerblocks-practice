@@ -6,7 +6,6 @@ string duplicateChar(string s)
     {
         return s;
     }
-
     string ros = duplicateChar(s.substr(1));
 
     if (s[0] == ros[0])
