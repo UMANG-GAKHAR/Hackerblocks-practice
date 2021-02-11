@@ -2,8 +2,6 @@
 #include<map>
 #include<vector>
 using namespace std ;
-
-
 class node{
 public:
 	int data ;
@@ -15,9 +13,6 @@ public:
 		right = NULL ;
 	}
 } ;
-
-
-
 node *build()
 {
     int d;
