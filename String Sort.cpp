@@ -10,7 +10,6 @@ int t;
 cin>>t;
 string full[1001];
 for (int i = 0;i<t;i++){
-
 	cin>>full[i];
 }
 for (int i = 0;i<t;i++){
