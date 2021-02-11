@@ -7,7 +7,6 @@ struct node{
     node(){
         left = right = NULL;
     }
-
 };
 
 int FindmaxXor(node* head , int* arr, int n , int el){
