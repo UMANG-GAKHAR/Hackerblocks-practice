@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
- 
 #define pb push_back
 #define mp make_pair
 #define ll long long
@@ -8,7 +7,6 @@ using namespace std;
 #define set(a) memset(a,0,sizeof(a))
 #define MOD 1000000007
 #define test(t) ll t; cin>>t; while(t--)
-
 class node
 {
 public:
@@ -23,7 +21,6 @@ public:
         right=NULL;
     }
 };
-
 node*binary_tree(string s)
 {
 	node*root1;
