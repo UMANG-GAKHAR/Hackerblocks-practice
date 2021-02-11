@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int lastIndex(const vector<int> &arr,int key,int i) {
     if(i == arr.size()) {
         return -1;
