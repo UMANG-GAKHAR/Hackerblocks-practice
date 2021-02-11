@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 class node
 {
 public:
@@ -15,7 +14,6 @@ public:
         right = NULL;
     }
 };
-
 node *createTreeFromTrav(int *inOrder, int *preOrder, int s, int e)
 {
     static  int i = 0;
