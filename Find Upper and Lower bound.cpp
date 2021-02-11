@@ -65,7 +65,5 @@ int main() {
 	cout<<fstocc(a,n,key)<<" ";
 	cout<<lstocc(a,n,key)<<endl;
 	}
-	
-
 	return 0;
 }
