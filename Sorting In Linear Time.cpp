@@ -1,13 +1,10 @@
 #include<iostream>
 using namespace std;
-
 void print(int *arr, int n) {
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << endl;
 	}
 }
-
-
 void sortLinearTime(int *arr, int l, int mid, int h) {
 	while (mid <= h) {
 		if (arr[mid] == 0) {
@@ -24,7 +21,6 @@ void sortLinearTime(int *arr, int l, int mid, int h) {
 		}
 	}
 }
-
 int main() {
 	
 	int n;
