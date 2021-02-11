@@ -15,7 +15,6 @@ class trie
 {
 	private:
     node *root;
-
 public:
     trie()
     {
