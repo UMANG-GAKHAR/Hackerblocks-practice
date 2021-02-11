@@ -22,7 +22,6 @@ using namespace std;
 ll inf = 1e18;
 ll mod = 1e9 + 7 ;
 ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
-
 int main()
 {
   // freopen("input.txt","r",stdin);
