@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int strToInt(string str, int number)
 {
     if (str.length() == 0)
@@ -12,7 +11,6 @@ int strToInt(string str, int number)
     string ros = str.substr(1);
     return strToInt(ros, number);
 }
-
 int main()
 {
     string str;
