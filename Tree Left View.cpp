@@ -5,7 +5,6 @@
 #include <map>
 #include <cmath>
 using namespace std;
-
 class node{
     public:
     int data;
@@ -16,8 +15,6 @@ class node{
         left = right = NULL;
     }
 };
-
-
 node *insert(node *root , int d , queue<node*> &Q){
     node *new_node = NULL;
     if(d != -1)
