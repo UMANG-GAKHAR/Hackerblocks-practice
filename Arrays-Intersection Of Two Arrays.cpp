@@ -3,7 +3,6 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
 int main()
 {
     unordered_map<int, int> freq; // <Number,Frequency> pair
@@ -15,7 +14,6 @@ int main()
         cin >> temp;
         freq[temp]++;
     }
-
     vector<int> ans;
     for (int i = 0; i < n; i++)
     {
@@ -26,9 +24,7 @@ int main()
             ans.push_back(temp);
         }
     }
-
     sort(ans.begin(), ans.end());
-
     cout << "[";
     for (int i = 0; i < ans.size(); i++)
     {
@@ -40,4 +36,3 @@ int main()
 
     return 0;
 }
-
