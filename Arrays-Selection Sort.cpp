@@ -5,7 +5,6 @@ int main() {
     cin >> n;
     long long int i,j, t;
     long long int arr[n];
-
     //Input from user
     for (i = 0; i < n; i++)
         cin >> arr[i];
@@ -23,7 +22,6 @@ int main() {
                      arr[j] = u;
                 }
         }
-
     }
   //display sorted array
     for (i = 0; i < n; i++)
