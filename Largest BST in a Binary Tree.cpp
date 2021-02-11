@@ -12,7 +12,6 @@ public:
         right=NULL;
     }
 };
-
 node* createTree(int inOrder[],int preOrder[],int s,int e){
     static int i=0;
     if(s>e){
