@@ -2,7 +2,6 @@
 #include "string"
 #include "climits"
 using namespace std;
-
 string findSubstring(string str, string pat) {
     int len1 = str.length();
     int len2 = pat.length();
