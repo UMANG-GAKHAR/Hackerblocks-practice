@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 string move(string s)
 {
     if (s.size() <= 1)
@@ -13,7 +12,6 @@ string move(string s)
     else
         return s[0] + ros;
 }
-
 int main()
 {
     string s;
