@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void magicalPark(char a[][100], int m, int n, int k, int s)
 {
     //To break out of the outter loop:
