@@ -12,7 +12,6 @@ using namespace std;
 #define 	setbits(no)     	__builtin_popcountll(no)
 #define 	mod             	1000000007
 #define 	w(t)            	int t; cin>>t; while(t--)
-
 // // typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
 void h_g()
 {
