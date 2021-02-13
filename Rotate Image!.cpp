@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 void rotate(int a[][1000], int n){
 for (int row=0; row<n; row++){
 int startcol=0;
