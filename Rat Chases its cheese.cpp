@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
-
 bool ratInMaze(char maze[10][10],int soln[10][10],int i,int j,int n,int m){
-
     //To check for the starting and the ending index also
      if(i>n||j>m||i<0||j<0 || soln[i][j]){
         return false;
@@ -51,20 +49,15 @@ bool ratInMaze(char maze[10][10],int soln[10][10],int i,int j,int n,int m){
     
     return false;
 }
-
-
 int main() {
     int n,m;
     cin>>n>>m;
-    
     char maze[10][10];
-    
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             cin>>maze[i][j];
         }
     }
-    
     int soln[10][10]={0};
     
     bool ans = ratInMaze(maze,soln,0,0,n-1,m-1);
