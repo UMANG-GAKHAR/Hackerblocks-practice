@@ -12,7 +12,6 @@ void keypadCode(string inp, string out, int i)
         count++;
         return;
     }
-
     //Rec case
     int r = inp[i] - '0';
     for (int k = 0; k < keypad[r].size(); k++)
