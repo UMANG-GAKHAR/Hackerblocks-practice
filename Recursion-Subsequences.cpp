@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void printSubsequences(string inp, string out)
 {
     if (inp.size() == 0)
