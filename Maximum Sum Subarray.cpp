@@ -2,13 +2,7 @@
 using namespace std;
 #define ROW 1001
 #define COL 1001  
- int M[1001][1001];
- // Implementation of Kadane's algorithm for  
-// 1D array. The function returns the maximum  
-// sum and stores starting and ending indexes  
-// of the maximum sum subarray at addresses  
-// pointed by start and finish pointers  
-// respectively.  
+ int M[1001][1001]; 
 int n,m;
 int kadane(int* arr, int* start, 
            int* finish, int n)  
