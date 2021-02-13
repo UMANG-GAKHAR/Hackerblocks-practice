@@ -15,7 +15,6 @@ using namespace std;
 #define inf LLONG_MAX
 #define MIN INT_MIN
 #define PIE 3.141592653589793238
-
 ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
 ll mod;
 ll powmod(ll a,ll b) 
