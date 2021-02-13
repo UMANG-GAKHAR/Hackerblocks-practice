@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 string compress(string s)
 {
     if (s.size() == 0)
