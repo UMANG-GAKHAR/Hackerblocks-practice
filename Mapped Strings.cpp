@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void mappedStrings(string inp, string out)
 {
     if (inp.size() == 0)
@@ -8,7 +7,6 @@ void mappedStrings(string inp, string out)
         cout << out << endl;
         return;
     }
-
     int singleDigitNumber = inp[0] - '0';
     char ch = singleDigitNumber + 'A' - 1;
     mappedStrings(inp.substr(1), out + ch);
