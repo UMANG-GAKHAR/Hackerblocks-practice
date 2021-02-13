@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 string str;
-
 void permute(string inp, string out)
 {
     //Base case
