@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 void primeseive(int arr[],int cs[]){
 	for(int i=3;i<=1000000;i+=2){
 		arr[i]=1;
