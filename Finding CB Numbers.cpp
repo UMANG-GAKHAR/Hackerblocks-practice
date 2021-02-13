@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 #include<string>
 using namespace std;
-
 long stoint(string s)
 {
     long i,j=0;
