@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
 int main()
 {     
     int maxm=-1;
@@ -28,4 +27,3 @@ int main()
 	
 	return 0;
 }
-
