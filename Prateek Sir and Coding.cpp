@@ -24,6 +24,5 @@ int main() {
             s.push(cost);
         }
     }    
-
     return 0;
 }
