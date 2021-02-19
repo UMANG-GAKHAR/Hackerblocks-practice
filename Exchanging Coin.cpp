@@ -16,7 +16,6 @@ ll int solve(ll int n,unordered_map<ll int,ll int>&dp)
 		return dp[n];
 	
 }
-
 int main()
 {
 	int n;
