@@ -99,19 +99,5 @@ int main()
         }
         cout << getMinDiceThrows(moves, n)<<endl;
     }
-    // int N = 30;
-    // int moves[N];
-    // for (int i = 0; i<N; i++)
-    //  moves[i] = -1;
-
-    // // Ladders
-    // moves[2] = 21;
-    // moves[4] = 7;
-    // moves[10] = 25;
-    // moves[19] = 28;
-
-    
-
-    // cout << "Min Dice throws required is " << getMinDiceThrows(moves, N)<<endl;
-    // return 0;
+   
 }
