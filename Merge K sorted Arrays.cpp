@@ -12,7 +12,6 @@ vector<int> mergeKSortedArrays(vector<vector<int>> v)
         //Push the first elements of all the rows into the PQ with their row and column number
         pq.push({v[i][0], {i, 0}});
     }
-
     while (!pq.empty())
     {
         //Take the smallest element out of PQ
