@@ -1,7 +1,6 @@
 #include<iostream>
 #include<deque>
 using namespace std;
-
 int main(){
 	long n;
 	cin>>n;
