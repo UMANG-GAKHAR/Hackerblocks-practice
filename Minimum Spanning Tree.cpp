@@ -2,8 +2,6 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-//DSU Data structure
-//Path Comression+Union by rank
 class DSU{
     int *parent;
     int *rank;
