@@ -13,7 +13,6 @@
 #include <ctime>
 #include <cassert>
 using namespace std;
-
 const int N = 3000;
 const int W = 1e5;
 const int INF = 1e9;
