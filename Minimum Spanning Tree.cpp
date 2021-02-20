@@ -18,7 +18,6 @@ class DSU{
             parent[i]=-1;
             rank[i]=1;
         }
-
     }
     //find Function-we need to find the set which contains integer i
     int find(int i)
