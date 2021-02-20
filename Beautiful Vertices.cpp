@@ -24,7 +24,6 @@ void dfs(int x)
 }
 void dfs2(int x,int y)
 {
-
     visited[x]=-1;
 
     for(int i=0;i<adj[x].size();i++)
