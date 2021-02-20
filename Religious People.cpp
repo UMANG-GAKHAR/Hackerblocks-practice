@@ -1,15 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define pb push_back
 #define ll long long int
-
 class Graph
 {
 private:
     ll V;
     map<ll, list<ll>> adjList;
-
 public:
     Graph(ll v)
     {
