@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define boost  ios_base::sync_with_stdio(false);
 #define endl '\n'
 #define mp make_pair
