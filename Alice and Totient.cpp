@@ -5,7 +5,6 @@ using namespace std;
 ll p[1000005]={0};
 ll tot[1000005]={0};
 void prime_sieve(){
-    
     for(ll i=3;i<LIMIT;i+=2)p[i]=1;
     for(ll i=3;i<LIMIT;i+=2){
         if(p[i]){
