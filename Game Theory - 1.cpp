@@ -5,7 +5,6 @@ int	calculateMex(unordered_set<int>Set) {
 	
 	while(Set.find(Mex)!=Set.end())								
 	Mex++;
-
 	return Mex;
 }
 int	calculateGrundy(int	n){
