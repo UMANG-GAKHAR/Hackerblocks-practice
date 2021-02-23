@@ -16,7 +16,6 @@ void sumofFactors(int n)
             curr_term *= i; 
             curr_sum += curr_term; 
         } 
-  
         res *= curr_sum; 
     } 
     if (n >= 2) 
