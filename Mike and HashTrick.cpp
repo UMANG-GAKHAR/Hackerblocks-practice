@@ -9,7 +9,6 @@ bool mycompare(int a , int b)
 { 
     //cout << "Comparing " << a << " and " << b << endl;
   return m[a] < m[b];
-
 }
 int main() {
     int n;
