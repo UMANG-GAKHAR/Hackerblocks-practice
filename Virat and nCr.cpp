@@ -18,7 +18,6 @@ ll power(ll a,ll b, ll c)
         pre_ans=(pre_ans*a)%c;
     return pre_ans;
 }
-
 int main()
 {
     ios_base::sync_with_stdio(false);
