@@ -21,7 +21,6 @@ void h_g()
 	freopen("output.txt", "w", stdout);
 #endif
 }
-
 int32_t main()
 {
 	// h_g();
