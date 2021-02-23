@@ -4,9 +4,6 @@ using namespace std;
 const int mod = 1000000000 + 7;
 int count( int S[], int m, int n ) 
 { 
-    // table[i] will be storing the number of solutions for 
-    // value i. We need n+1 rows as the table is constructed 
-    // in bottom up manner using the base case (n = 0) 
     int table[n+1]; 
 
     // Initialize all table values as 0 
