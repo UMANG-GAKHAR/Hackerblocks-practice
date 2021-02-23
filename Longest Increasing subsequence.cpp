@@ -12,8 +12,6 @@ int lis( int arr[], int n )
             if ( arr[i] > arr[j] && lis[i] < lis[j] + 1)  
                 lis[i] = lis[j] + 1;  
     } 
-
-    // Return maximum value in lis[] 
     return *max_element(lis, lis+n); 
 }  
 /* Driver program to test above function */
