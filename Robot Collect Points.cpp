@@ -17,7 +17,6 @@ void fill(int x,int n)
             if(b[i][j] == -1) b[i][j] = 0 ;
     }
 }
-
 int hello(int i, int j)
 {
      if(i==-1) return 0;
@@ -33,7 +32,6 @@ int hello(int i, int j)
 
      return ans;
 }
-
 void solve()
 {
      int n,m,k;
