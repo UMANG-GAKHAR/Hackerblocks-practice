@@ -2,7 +2,6 @@
 #include <stack>
 #include <cstring>
 using namespace std;
-
 bool balancedParenthesis(string str)
 {
     stack<char> s;
