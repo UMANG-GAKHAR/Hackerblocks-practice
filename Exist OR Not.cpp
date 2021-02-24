@@ -21,7 +21,6 @@ int binary_searchh(int *a,int no,int s,int e)
     return -1;
 }
 int main() {
-    // cout<<"Hello World!";
     int t;
     cin>>t;
     while(t--)
