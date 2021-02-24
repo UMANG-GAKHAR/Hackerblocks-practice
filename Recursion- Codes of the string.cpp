@@ -3,7 +3,6 @@ using namespace std;
 void rec(char *s,int i,char *out,int j,string *output,int &k){
     if(s[i]=='\0'){
         out[j]='\0';
-        
         output[k++]=out;
         return;
     }
