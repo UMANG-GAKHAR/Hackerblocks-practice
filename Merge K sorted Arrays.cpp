@@ -30,7 +30,6 @@ vector<int> mergeKSortedArrays(vector<vector<int>> v)
 
     return res;
 }
-
 int main()
 {
     int k;  //No of rows
