@@ -27,8 +27,6 @@ int main() {
 			}
 			maxs=max(csum,maxs);
 		}
-
-
 		cout<<(-(sum-maxs))<<"\n";
 	}
 	return 0;
