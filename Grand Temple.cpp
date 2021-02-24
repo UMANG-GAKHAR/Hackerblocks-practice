@@ -6,7 +6,6 @@ int main() {
     cin >> n;
     vector<ll> x;
     vector<ll> y;
-
     x.push_back(0);
     y.push_back(0);
 
