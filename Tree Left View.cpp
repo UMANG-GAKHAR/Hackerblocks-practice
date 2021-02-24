@@ -1,4 +1,3 @@
-// tree top view
 #include <iostream>
 #include <algorithm>
 #include <queue>
