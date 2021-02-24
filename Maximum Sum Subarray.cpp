@@ -9,7 +9,6 @@ int kadane(int* arr, int* start,
 {  
     // initialize sum, maxSum and  
     int sum = 0, maxSum = INT_MIN, i;  
-
     // Just some initial value to check 
     // for all negative values case  
     *finish = -1;  
