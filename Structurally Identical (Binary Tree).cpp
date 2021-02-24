@@ -29,7 +29,6 @@ node*binary_tree(string s)
 		int d;
 		cin>>d;
 		root1=new node(d);
-
 		string l;
 		cin>>l;
 		if(l=="true")
@@ -87,6 +86,5 @@ int main()
 
 	else 
 	cout<<"false"<<endl;
-
 	return 0;
 }
