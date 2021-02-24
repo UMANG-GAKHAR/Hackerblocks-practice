@@ -18,7 +18,6 @@ swap(a[i][j],a[j][i]);
 }
 }
 }
-
 int main() {
 int n;
 int a[1000][1000];
