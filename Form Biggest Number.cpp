@@ -1,11 +1,8 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
-#define int             unsigned long long
-#define w(x)            int x; cin>>x; while(x--)
-
-
+#define int unsigned long long
+#define w(x) int x; cin>>x; while(x--)
 void sm()
 {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
