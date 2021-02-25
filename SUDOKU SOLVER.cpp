@@ -2,8 +2,6 @@
 using namespace std;
 bool canplace(int arr[][9], int n, int i, int j, int num)
 {
-    // check col and rows and boxes.
-    // row
     for (int k = 0; k < n; k++)
     {
         if (arr[i][k] == num|| arr[k][j]==num)
