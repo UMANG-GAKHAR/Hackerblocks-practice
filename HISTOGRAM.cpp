@@ -29,7 +29,6 @@ int main() {
 		//Push index of current:
 		s.push(i);
 	}
-	//If stack still contains some element: When the last element was larger than the top of stack:
 	while(!s.empty()){
 		//Pop element from stack:
 			int t=s.top();
