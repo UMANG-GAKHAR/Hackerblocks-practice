@@ -31,7 +31,6 @@ node *insert(node *root , int d , queue<node*> &Q){
     Q.push(new_node);
     return root;
 }
-
 void print(int arr[] , int n){
     for(int i = 0 ; i < n ; i++){
         cout<<arr[i]<<" ";
