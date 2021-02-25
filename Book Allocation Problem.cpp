@@ -18,8 +18,7 @@ bool cankeep(long long int arr[],int n,int m,long long mid_step)
 		}
 		else{
 			pages+=arr[i];
-		}
-		
+		}	
 	}
 	return true;
 }
