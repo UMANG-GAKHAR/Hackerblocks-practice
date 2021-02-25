@@ -42,7 +42,6 @@ node*binary_tree(string s)
 
 	if(s=="false")
 	return NULL;
-
 	return root1;
 }
 void print_pre_order(node*root)
