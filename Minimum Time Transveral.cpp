@@ -47,10 +47,8 @@ const int N = 25;
 struct P {
      int x1, x2, y1, y2, t;
 };
-
 P p, a[N];
 int n, vst[N],ans;
-
 void robot(int tim, pii v)
 {
      ans=min(ans,tim+abs(v.F - p.x2) + abs(v.S - p.y2));
