@@ -27,7 +27,6 @@ vector<int> mergeKSortedArrays(vector<vector<int>> v)
             pq.push({v[rowNo][colNo + 1], {rowNo, colNo + 1}});
         }
     }
-
     return res;
 }
 int main()
