@@ -9,7 +9,6 @@ using namespace std;
 #define test(t) ll t; cin>>t; while(t--)
 bool generate_subsequence(ll *a,ll *b,ll n, ll i,ll j)
 {
-    //base case;
     if(i==n)
     {
         ll sum=0;
