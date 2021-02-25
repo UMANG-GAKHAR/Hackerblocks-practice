@@ -4,7 +4,7 @@ int main() {
 	int t,n;
 	cin>>t;
 	while(t--){
-		cin>>n;
+	cin>>n;
         int arr[n];
         int inc[n];
         int dec[n];
