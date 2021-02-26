@@ -4,14 +4,12 @@
 #include<cmath>
 #include<climits>
 using namespace std;
-
 class hash_fn{
     public:
     size_t operator()(const pair<int,int>&p) const{
         return p.first+p.second;
     }
 };
-
 int main() {
     int t;
     cin>>t;
