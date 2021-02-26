@@ -4,7 +4,6 @@ struct node{
   long long a,b,c,d;
 };
 void buildtree(node *tr,node *arr,int idx,long long r,int s,int e){
-
    if(s>e)
      return ;
 	 if(s==e){
