@@ -31,7 +31,6 @@ ll findmod(ll a,ll b){
 int main() {
     ll a,b;
     cin>>a;
-
     b = mod;
 
     // cout<<gcd(a,b)<<endl;
