@@ -6,7 +6,6 @@ int main() {
 	cin>>n;
 	for(int i=0;i<n;i++){
 		cin>>no;
-		//update cnt array
 		int j=0;
 		while(no>0){
 			int last_bit= (no&1);
