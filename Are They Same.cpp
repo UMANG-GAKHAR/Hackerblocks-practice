@@ -7,7 +7,7 @@ bool fun(string s1,string s2)
             return true;//cout<<"YES"<<endl;
 		else if(s1.length()!=s2.length())
 		{
-			return false;//cout<<"NO"<<endl;
+			return false;
 		}
 		else if(s1.length()==1)
 		    return false;
