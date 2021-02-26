@@ -13,7 +13,6 @@ void extendedeuclid(int a,int b){
     if(b == 0){
         x = 1;
         y = 0;
-
         return;
     }
     extendedeuclid(b,a%b);
