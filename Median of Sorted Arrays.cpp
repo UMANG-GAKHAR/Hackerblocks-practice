@@ -18,7 +18,6 @@ while(true){
         return (max(arr1[lo1] , arr2[lo1]) +
         min(arr1[hi1] , arr2[hi2])) / 2;
     }
-
     if(median1 == median2)
         return median1;
     if(m1 > m2){
