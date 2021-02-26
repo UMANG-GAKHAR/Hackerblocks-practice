@@ -18,7 +18,6 @@ void phoneKeypad(string inp, string out)
         }
         return;
     }
-    //Rec case
     char ch = inp[0];
     string ros = inp.substr(1);
     string code = table[ch - '0'];
