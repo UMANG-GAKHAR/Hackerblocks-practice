@@ -30,7 +30,7 @@ int Bsearch(int n,int *arr,int key){
 int main() {
 	int n;
 	cin>>n;
-	int arr[100000];           ///////////////// 
+	int arr[100000];          
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}
