@@ -2,7 +2,6 @@
 using namespace std;
 #define ll long long int
 ll dp[1005][1005];
-//Recursive Approach
 ll knapsack(ll n, ll w, ll *weights, ll *prices)
 {
     //Base case
