@@ -11,7 +11,6 @@ int main() {
 		a[i]=no;
 		res = res^no;
 	}
-	//xor=a^b
 	int temp=res;
 	int pos=0;
 	while((temp&1)!=1){
