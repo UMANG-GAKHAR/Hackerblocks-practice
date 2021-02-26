@@ -10,7 +10,6 @@ class DSU{
     {
         parent=new int[n];
         rank=new int[n];
-        //Parent -1 and rank=1
         for(int i=0;i<n;i++)
         {
             parent[i]=-1;
