@@ -29,7 +29,6 @@ public:
                 if(temp->l == NULL){
                     temp->l = new node();
                 }
-                //Insert the index of the number into the vector
                 temp->v.push_back(index);  //update
                 temp = temp->l ;
             }
