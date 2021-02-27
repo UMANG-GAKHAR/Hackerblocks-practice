@@ -3,8 +3,7 @@ using namespace std;
 int lis( int arr[], int n )  
 {  
     int lis[n]; 
-    lis[0] = 1;    
-    /* Compute optimized LIS values in bottom up manner */
+    lis[0] = 1;  
     for (int i = 1; i < n; i++ )  
     { 
         lis[i] = 1; 
