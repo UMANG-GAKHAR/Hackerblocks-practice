@@ -13,7 +13,6 @@ int partition(int a[],int s,int e){
     swap(a[i],a[e]);
     return i;
 }
-
 void quickSort(int a[],int s,int e){
     if(s>e){
         return;
