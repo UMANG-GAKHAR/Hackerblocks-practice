@@ -12,7 +12,6 @@ void prime_sieve(){
             p[j]=0;
         }
     }
-
 }
 p[2]=1;
 return;
