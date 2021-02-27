@@ -14,7 +14,6 @@ void Add(int z, long long w)
 	for (; z < MAXN; z += z & (-z))
 		t[z] = max(t[z], w);
 }
- 
 long long GetMax(int z)
 {
 	long long res = 0;  z += 1;
@@ -22,7 +21,6 @@ long long GetMax(int z)
 		res = max(res, t[z]);
 	return res;
 }
- 
 long long Work()
 {
 	memset(t, 0, sizeof(t));
