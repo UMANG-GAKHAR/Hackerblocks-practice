@@ -4,7 +4,6 @@ using namespace std;
 string table[] = {" ", ".+@$", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 void phoneKeypad(string inp, string out)
 {
-    //Base case
     if (inp.size() == 0)
     {
         cout << out << "\n";
