@@ -64,7 +64,6 @@ void buildTree(ll *inp,ll *tree,ll ss,ll se,ll index){
     tree[index]=gcd(tree[2*index],tree[2*index+1]);
     return;
 }
-
 ll query(ll *tree,ll ss,ll se,ll qs,ll qe,ll index){
     if(ss>qe or se<qs)
         return -1;
