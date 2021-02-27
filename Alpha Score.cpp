@@ -18,7 +18,6 @@ ll mergeInterval(ll *arr,ll s,ll mid,ll e)
     {        
         if(l[i]<=r[j])
         {
-            
             cnt+=(l[i]*(e-(mid+j))%mod);
             arr[k]=l[i];
             i++;
