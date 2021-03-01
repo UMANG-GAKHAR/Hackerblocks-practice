@@ -32,8 +32,6 @@ void init(){
 unordered_map<string, int> beverage;
 map<int, string> revbeverage;
 vector<int> g[1005];
-
-
 void topSort(int n){
     int inDeg[n] = {0};
     vi ans;
