@@ -24,7 +24,7 @@ void lazy_up(int node,int st,int en)
 }
 void update(int node,int st,int en,int l,int r,int x)
 {
-    lazy_up(node,st,en); //updating pending lazy updates.
+    lazy_up(node,st,en); 
     if(st>r || en<l)
         return;
     if(st>=l && en<=r)
