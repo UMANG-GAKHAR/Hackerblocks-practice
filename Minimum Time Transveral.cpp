@@ -43,7 +43,6 @@ void __f (const char* names, Arg1&& arg1, Args&&... args)
      cout.write (names, comma - names) << " : " << arg1 << " | "; __f (comma + 1, args...);
 }
 const int N = 25;
-
 struct P {
      int x1, x2, y1, y2, t;
 };
