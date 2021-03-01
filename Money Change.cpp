@@ -5,8 +5,6 @@ const int mod = 1000000000 + 7;
 int count( int S[], int m, int n ) 
 { 
     int table[n+1]; 
-
-    // Initialize all table values as 0 
     memset(table, 0, sizeof(table)); 
 
     // Base case (If given value is 0) 
