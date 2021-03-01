@@ -12,7 +12,6 @@ ll primefactors(ll n, vector<ll> p)
         n = n / 2;
         count++;
     }
-
     for (ll i = 3; i * i <= n; i = i + 2)
     {
         count = 0;
