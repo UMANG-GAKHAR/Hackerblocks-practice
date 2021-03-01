@@ -36,7 +36,6 @@ ll CalculateMex(set<ll> Set){
     }
     return Mex;
 }
-
 inline void INP()
 {
 	#ifndef ONLINE_JUDGE
@@ -44,14 +43,10 @@ inline void INP()
 	    freopen("output.txt","w",stdout);
 	#endif 
 }
-
 ll m,n,s;
 pll v[102];
 ll dp[102][10002][102];
-
-// pair of color - weight.
 ll ansit(ll i,ll siz,ll color){
-
     while(v[i].F != color && i<n) i++;
 
     if (i == n){
