@@ -22,8 +22,6 @@ ll inf = 1e18;
 ll mod = 1e9 + 7 ;
 ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
 
-// TRY SOLVING IT AGAIN NEXT TIME AND MUST LOOK AT THE EDITORIAL  SOLUTION
-
 vector<vector<int> >ans;
 set<vector<int> > mp;
 int B;
