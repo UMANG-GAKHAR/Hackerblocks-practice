@@ -3,11 +3,9 @@
 #include<algorithm>
 using namespace std;
 #define ll long long
-
 bool canRead(int *a, int n, int m, int curr){
 	long long int pages=0;
 	int count=1;
-
 	for(int i=0;i<n;i++){
 		if(pages + a[i] > curr){
 			pages = a[i];
@@ -21,7 +19,6 @@ bool canRead(int *a, int n, int m, int curr){
 	}
 	return true;
 }
-
 int find(int a[], int n, int m, ll sum){
 	long long int ans = INT_MAX;
 	
