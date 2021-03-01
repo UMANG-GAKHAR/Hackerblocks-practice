@@ -8,7 +8,6 @@ int main() {
     vector<ll> y;
     x.push_back(0);
     y.push_back(0);
-
     for(ll i=0;i<n;i++){
         ll a,b;
         cin >> a >> b;
