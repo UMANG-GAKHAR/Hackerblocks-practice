@@ -31,7 +31,6 @@ int main()
 	cin >> t;
 	Seive(100001);
 	while (t--) {
-        
 		cin >> n;
 		cout << divisors[n] << endl;
 	}
