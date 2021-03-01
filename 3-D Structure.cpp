@@ -5,7 +5,6 @@ using namespace std;
 long long matrix[101][101][101];
 void update(long long n,long long x,long long y,long long z,long long  val) {
     long long y1,x1;
-
     while(z <= n) {
         x1 = x;
         while(x1 <= n) {
@@ -19,7 +18,6 @@ void update(long long n,long long x,long long y,long long z,long long  val) {
         z += (z & -z);
     }
 }
-
 long long calculate_sum(long long  x,long long y,long long z) {
     long long y1,x1,sum=0;
     while (z>0) {
@@ -33,7 +31,6 @@ long long calculate_sum(long long  x,long long y,long long z) {
             x1 -= (x1 & -x1);
         }
         z -= (z & -z);
-
     }
     return sum;
 }
