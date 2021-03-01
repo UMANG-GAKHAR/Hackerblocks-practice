@@ -3,8 +3,6 @@
 using namespace std;
 ll merge(ll * a,int s,int e)
 {
-   
-	
 	ll sum=0;
     ll max=a[s];
     if(a[s]<0)
