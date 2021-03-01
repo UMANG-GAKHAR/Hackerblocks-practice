@@ -32,7 +32,7 @@ void f(ll h,ll n,bool dir)
     if(h == 0)
         return;
     ll lim = ceil(pow(2ll,h-1));
-    if(n <= lim) // left child
+    if(n <= lim) 
     {
         if(dir == 0) // going left
         {
