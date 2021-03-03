@@ -19,8 +19,8 @@ int main()
    cin>>t;
    while(t--)
    {
-	   cin>>n;
-	    cout << countStrings(n) << endl;   
+	 cin>>n;
+	 cout << countStrings(n) << endl;   
    }
     return 0; 
 }
