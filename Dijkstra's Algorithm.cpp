@@ -20,7 +20,6 @@ const int INF = 1e9;
 vector<pair<int, int>> g[N];
 int dist[N];
 bool visited[N];
-
 int main()
 {
     int t;
