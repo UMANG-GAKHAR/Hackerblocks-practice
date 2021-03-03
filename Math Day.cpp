@@ -11,7 +11,6 @@ ll int  power(ll int ans, ll int i, ll int p)
 	{
 		if (i & 1)
 		{
-			// ans
 			return ((ans * power(ans, i - 1, p)) % p * ans) % p;
 		}
 		else
