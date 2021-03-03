@@ -14,7 +14,6 @@ int main() {
             cout << 1 << endl;
             continue;
         }
-        //Ans = (n-1)!/((r-1)! * (n-r)!)
         ll ans = 1;
         for(ll i=n-1; i>=n-r+1;i--) {
             ans = ans*i;
