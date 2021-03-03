@@ -7,9 +7,7 @@ ll merge(vector<ll> &a, int start, int end) {
     if(start > end) {
         return 0;
     }
-
     int mid = (start+end)/2;
-
     ll count = 0;
 
     int i = start;
