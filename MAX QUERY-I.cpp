@@ -10,7 +10,6 @@ ll query(vector<vector<ll>> &tree,int ss,int se,int qs,int qe,int index,ll k)
 
     else if(ss>=qs && se<=qe)
     {
-
         return tree[index].end()-lower_bound(tree[index].begin(),tree[index].end(),k);  
     }
     int mid = (ss+se)/2;
@@ -32,7 +31,6 @@ void BuildTree(vector<vector<ll>> &tree,vector<ll> &arr,int s,int e,int index)
     return;
 
 }
-
 int main(int argc, char const *argv[])
 {
     ios_base::sync_with_stdio(false);
