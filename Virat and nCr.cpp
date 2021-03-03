@@ -11,7 +11,6 @@ ll power(ll a,ll b, ll c)
         return 1;
 
     // If b is even then b/2 else a*(b/2)
-
     ll pre_ans=power(a,b/2,c);
     pre_ans=(pre_ans*pre_ans)%c;
     if(b&1)
@@ -26,7 +25,6 @@ int main()
     ll n,i,r;
     cin>>n>>r;
     fac[0]=1;
-
     for(i=1;i<=n;i++)
         fac[i]=(fac[i-1]*i)%mod;
 
