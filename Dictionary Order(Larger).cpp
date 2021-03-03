@@ -24,7 +24,6 @@ void lexicoLarger(string str, string osf, bool flag, string originalString)
             }
             else if (str[i] < str[0])
             {
-                // No call
             }
         }
     }
