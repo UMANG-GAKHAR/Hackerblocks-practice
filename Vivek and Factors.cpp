@@ -20,7 +20,6 @@ void sumofFactors(int n)
     } 
     if (n >= 2) 
         res *= (1 + n); 
-  
     b[res]=res;
     a[res]= m;
 } 
