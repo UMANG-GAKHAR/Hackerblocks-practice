@@ -9,7 +9,6 @@ void set(int i,int j,int count){
     int ans = 0;
     board[i][j] = 0;//unsets the (i,j) cell
     hi = max(hi,count+1);//hi stores the maximum of value of visited squares
-    //try all 8 possible moves for knight
     set(i-1,j-2,count+1);
     set(i-2,j-1,count+1);
     set(i+1,j-2,count+1);
