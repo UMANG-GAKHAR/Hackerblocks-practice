@@ -3,8 +3,6 @@ using namespace std;
 long long countFriendsPairings(int n)
 {
     long long dp[n+1];
-    // Filling dp[] in bottom-up manner using
-    // recursive formula explained above.
     for (int i=0; i<=n; i++)
     {
         if (i <= 2)
