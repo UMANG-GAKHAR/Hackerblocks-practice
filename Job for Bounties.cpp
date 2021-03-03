@@ -8,8 +8,6 @@
 #define ss second
 using namespace std;
 int main(){
-//    freopen("input2.txt","r",stdin);
-//    freopen("output.txt","w",stdout);
     ios::sync_with_stdio(0);
     string str;
     stack<int> stck;
