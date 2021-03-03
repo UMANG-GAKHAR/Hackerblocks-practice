@@ -20,7 +20,6 @@ void dfs(int x)
     }
     visited[x]=1;
     s.insert(x);
-//    cout<<x<<"\t";
 }
 void dfs2(int x,int y)
 {
