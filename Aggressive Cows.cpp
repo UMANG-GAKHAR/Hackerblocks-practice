@@ -17,7 +17,6 @@ bool place(int arr[],int n,int c,int mid)
 				return true;
 			}
 		}	
-
 	}
 	if(cnt<c){
 return false;}
