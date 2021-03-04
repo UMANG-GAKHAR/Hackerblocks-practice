@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 #include <algorithm>
 using namespace std;
-
 #define inf 0x3f3f3f3f
 #define PI acos(-1)
 #define eps 1e-9
