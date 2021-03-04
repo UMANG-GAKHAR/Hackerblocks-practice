@@ -20,8 +20,6 @@ node* buildTree(int* preorder,int* inorder,int s,int e)
 	node* root=new node(preorder[idx]);
     // if( s == e)return root;
 	int index=-1;
-
-	//update  <= 
 	for(int j=s;j<=e;j++)
 	{
 		if(inorder[j]==preorder[idx])
