@@ -18,7 +18,6 @@ void findZeros(int *arr, int n, int k) {
             bestL = wL;
         }
     }
-    // cout<<bestWindow<<","<<wR<<","<<wL<<","<<bestL<<endl;
     cout<<bestWindow<<endl;
     for(int i=0;i<bestL;i++) {
         cout<<arr[i]<<" ";
