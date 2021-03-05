@@ -8,7 +8,6 @@ int main() {
     //Input from the user
     for (i = 0; i < n; i++)
         cin >> arr[i];
-    //Two for loop which compare the element of arrays.
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n-1;j++)
