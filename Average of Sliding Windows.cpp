@@ -1,7 +1,5 @@
-
 #include <bits/stdc++.h>
 using namespace std;
-
 class MovingAverage {
 public:
     /** Initialize your data structure here. */
