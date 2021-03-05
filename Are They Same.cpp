@@ -21,7 +21,6 @@ bool fun(string s1,string s2)
             a2=s1.substr(half,len-half);
             b1=s2.substr(0,half);
             b2=s2.substr(half,len-half);
-			
             if((fun(a1,b2) && fun(a2,b1)) or (fun(a2,b2) && fun(a1,b1)))
                 return true;//cout<<"YES"<<endl;
             else return false;// cout<<"NO"<<endl;
