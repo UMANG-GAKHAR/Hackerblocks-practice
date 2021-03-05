@@ -18,7 +18,7 @@ ll knapsack(ll n, ll w, ll *weights, ll *prices)
 
     if (weights[n - 1] <= w)
     {
-        //Include the current index element
+      
         include = prices[n - 1] + knapsack(n - 1, w - weights[n - 1], weights, prices);
     }
     //Exclude the current element
