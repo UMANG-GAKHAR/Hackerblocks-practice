@@ -4,7 +4,6 @@ using namespace std;
 ll dp[1005][1005];
 ll knapsack(ll n, ll w, ll *weights, ll *prices)
 {
-    //Base case
     if (n == 0 || w == 0)
     {
         return 0;
