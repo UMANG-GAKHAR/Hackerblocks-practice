@@ -8,7 +8,6 @@ int main() {
     //Input from user
     for (i = 0; i < n; i++)
         cin >> arr[i];
-
     //Selection sort for sorting the element of given array
     for (i = 0; i < n; i++)
     {
