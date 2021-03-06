@@ -16,7 +16,6 @@ using namespace std;
 const int N = 3000;
 const int W = 1e5;
 const int INF = 1e9;
-
 vector<pair<int, int>> g[N];
 int dist[N];
 bool visited[N];
