@@ -3,7 +3,6 @@ using namespace std;
 int main ()
 {
     signed long long int i, n;
-//Total number of test case
     cin >> n;
 //Working for each test case
     for ( i = 0; i < n; i++)
@@ -23,4 +22,3 @@ int main ()
     }
     return 0;
 }
-
