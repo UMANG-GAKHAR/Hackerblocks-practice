@@ -2,7 +2,6 @@
 #include <math.h>
 #include <iostream>
 using namespace std;
-/* Function to sort an array using insertion sort*/
 void insertionSort(long long int arr[], long long int n)
 {
 int i, key, j;
