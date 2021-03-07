@@ -65,7 +65,6 @@ ll ansit(ll i,ll siz,ll color){
         if (v[j].F != color) break;
         // If I choose to pick it up
         myans = max(myans,ansit(j+1,siz+v[j].S,color+1));
-        // cout << myans << endl;
     }
     return dp[i][siz][color] = myans;
     
