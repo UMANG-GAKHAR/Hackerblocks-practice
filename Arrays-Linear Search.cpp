@@ -8,7 +8,6 @@ int main() {
         cin >> arr[i];
     long long int num;
     cin >> num;
-
     for (i = 0; i < n; i++)
     {
         if (num == arr[i])
