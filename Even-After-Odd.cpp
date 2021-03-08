@@ -34,7 +34,6 @@ void evenodd(node*head)                                 //No need to return node
     node *os=NULL;
     node *oe=NULL;
     node *curr=head;                                     //ADDED
-
     //for(node*cur = head;cur!=NULL;cur=cur->next) 
     while(curr!=NULL)                                   //ADDED
     {
