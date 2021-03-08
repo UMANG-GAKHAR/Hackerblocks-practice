@@ -32,11 +32,7 @@ void dfs2(int x,int y)
         {
             dfs2(adj[x][i],x);
         }
-
-
-
     }
-
     visited[x]=1;
     if(x!=y)
     {
