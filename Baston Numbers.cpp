@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
-
 using namespace std;
-
 ll primefactors(ll n, vector<ll> p)
 {
     ll count = 0;
@@ -14,7 +12,6 @@ ll primefactors(ll n, vector<ll> p)
         n = n / 2;
         count++;
     }
-
     for (ll i = 3; i * i <= n; i = i + 2)
     {
         count = 0;
@@ -38,7 +35,6 @@ ll primefactors(ll n, vector<ll> p)
 		// DIGITSUM * COUNT OF TIME IT OCCURED AS FACTOR
         sum += (digit_sum * count);
     }
-
     if (n > 3)
     {
         
@@ -53,7 +49,6 @@ ll primefactors(ll n, vector<ll> p)
     }
     return sum;
 }
-
 int main()
 {
     ll n;
