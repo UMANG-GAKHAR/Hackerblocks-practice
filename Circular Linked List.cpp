@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
 class node{
 public:
 	int data;
@@ -13,7 +11,6 @@ public:
 	}
 
 };
-
 void print (node*head)
 {
 	while(head!=NULL)
@@ -196,11 +193,9 @@ void insertion_circular(node *& head, node * head1)
 		}
 		insertattail(head,data);
 		temp=temp->next;
-
 	}
 
 }
-
 void print_answer(node* h){
 
     map<int,int> m;
@@ -214,9 +209,7 @@ void print_answer(node* h){
         }
         h=h->next;
     }
-
 }
-
 int main()
 { 
 	node * head1=NULL;
