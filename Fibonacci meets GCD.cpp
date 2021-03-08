@@ -23,7 +23,6 @@ vector<vector<ll>> pow(vector<vector<ll>> &A,ll p){
 
     return    mul(X,X);
 }
-
 ll fib(ll n){
     if(!n)
     return 0;
