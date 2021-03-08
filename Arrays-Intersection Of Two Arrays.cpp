@@ -33,6 +33,5 @@ int main()
             cout << ", ";
     }
     cout << "]";
-
     return 0;
 }
