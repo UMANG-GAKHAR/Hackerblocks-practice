@@ -33,7 +33,6 @@ int32_t main(){
         else{
             cout << "false"<<endl;
         }
-
     }
     return 0;
 }
