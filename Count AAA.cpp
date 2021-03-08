@@ -2,7 +2,6 @@
 #include<cstring>
 using namespace std;
 int ans1=0;
-
 //Count number of aaa in the given string
 void count1(char arr[],int n){
     if(n<=0){return;}
