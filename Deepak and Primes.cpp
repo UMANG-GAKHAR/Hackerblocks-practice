@@ -22,8 +22,6 @@ void h_g()
 }
 int32_t main()
 {
-	// h_g();
-
 	int maxx = 7400000;
 	bool prime[maxx+2] = {0};
 	prime[2] = 1;
