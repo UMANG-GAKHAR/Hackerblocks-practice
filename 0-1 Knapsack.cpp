@@ -30,7 +30,6 @@ int main()
     cin >> n >> w;
     ll weights[1005] = {0};
     ll prices[1005] = {0};
-
     for (int i = 0; i < n; i++)
     {
         cin >> weights[i];
