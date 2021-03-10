@@ -26,7 +26,6 @@ node query(node *tr,int idx,long long r,int s,int e,int qs,int qe){
 				return tr[idx];
 			}
 			int mid=(s+e)/2;
-
 			node one=query(tr,2*idx,r,s,mid,qs,qe);
 			node two=query(tr,2*idx+1,r,mid+1,e,qs,qe);
 			node trr;
