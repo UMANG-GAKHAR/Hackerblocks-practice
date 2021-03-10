@@ -25,7 +25,6 @@ node* insertInBST(node *root,int data){
     }
     return root;
 }
-
 node* buildBalancedBst(int l,int r,int arr[]){
 
     if(l>r){
