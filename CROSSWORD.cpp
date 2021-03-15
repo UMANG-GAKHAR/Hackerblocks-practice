@@ -8,8 +8,7 @@
 using namespace std;
 unordered_map<string,ll> dict;
 void solve(char a[][5],int i,int j,int m,string ans)
-{
-    //Base Case
+{  //Base Case
     if(i<0 || j<0 || i==m || j==m)
         return;
     ans+=a[i][j];
