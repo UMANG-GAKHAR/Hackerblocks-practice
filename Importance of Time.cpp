@@ -2,8 +2,6 @@
 using namespace std;
 int importanceOfTime(queue<int> &q, const vector<int> &arr)
 {
-    //arr is the ideal order
-    //q is the calling order
     int ans = 0;
     for (int i = 0; i < arr.size(); i++)
     {
