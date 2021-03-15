@@ -7,8 +7,6 @@ void factorial(int n)
     int res[MAX];
     res[0] = 1; 
     int res_size = 1; 
-  
-    
     for (int x=2; x<=n; x++) 
         res_size = multiply(x, res, res_size); 
   
