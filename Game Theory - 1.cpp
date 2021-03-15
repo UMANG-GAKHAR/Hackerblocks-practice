@@ -20,7 +20,6 @@ int	calculateGrundy(int	n){
 	}
 	return calculateMex(Set); 
 }
-
 int main()
 {
 	int t;
