@@ -30,7 +30,6 @@ int FindmaxXor(node* head , int* arr, int n , int el){
                 curr_xor += (int)pow(2, j);
             }else curr = curr->right;
         }
-
     }
     if(curr_xor  > max_xor) max_xor = curr_xor;
     return max_xor;
