@@ -3,7 +3,6 @@
 #include<vector>
 #define ll long long   ////////////////////////////////////////////////////////////////
 using namespace std;
-
 int main(){
 
 
@@ -27,14 +26,10 @@ int main(){
 		}
 
 		sort(v1.begin(),v1.end());
-
-
 		ll int maxx=0;
-
 		for(int j=0; j<n/2; j++){
 
 			maxx+=abs(v1[j]-v1[n-j-1]);
-
 		}
 
 		//cout<<maxx<<endl;  ////////////////////////////////////////////////////////////////////////////////
