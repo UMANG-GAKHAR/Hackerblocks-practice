@@ -31,7 +31,6 @@ int length (node*head)
 	}
 	return len;
 }
-
 void insertathead(node *&head,int data)
 {
 	node * n= new node(data);
