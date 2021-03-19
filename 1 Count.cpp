@@ -33,7 +33,6 @@ void findZeros(int *arr, int n, int k) {
 }
 int main(int argc, char const *argv[])
 {
-    /* code */
     int n, k;
     cin>>n>>k;
     int *arr = new int[n];
