@@ -20,7 +20,6 @@ using namespace std;
 #define REP(i, a) for (int i=0; i<(a); i++)
 #define FORd(i,a,b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i,a) for (int i = (a)-1; i >= 0; i--)
-
 int mx;
 string v;
 ll dp[50][18][18][18];// pos, restrict, flag, cn3, cn6, cn9
