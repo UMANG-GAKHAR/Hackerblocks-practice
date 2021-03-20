@@ -37,7 +37,6 @@ int main()
         cin >> x;
         q.push(x);
     }
-
     for (int i = 0; i < n; i++)
     {
         cin >> v[i];
