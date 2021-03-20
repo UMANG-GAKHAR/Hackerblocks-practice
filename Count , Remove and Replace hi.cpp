@@ -11,7 +11,6 @@ void count(char arr[],int n){
         ans++;
     }
 }
-
 //Function which replace hi to bye in the given string
 void print1(char arr[],int n,int size){
     if(n==0){return;}
