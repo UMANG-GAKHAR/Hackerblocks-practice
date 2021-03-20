@@ -2,7 +2,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 using namespace std;
-
 int n,cols,empty,board[10][10],sum=0,hi;
 
 void set(int i,int j,int count){
