@@ -2,7 +2,6 @@
 #include<cstring>
 using namespace std;
 int ans=0;
-
 //Function which count numbers of hi in the given string
 void count(char arr[],int n){
     if(n==0){return;}
@@ -26,7 +25,6 @@ void print1(char arr[],int n,int size){
         cout<<arr[n-1];
     }
 }
-
 //Function which remove or skip hi from the given strings.
 void print2(char arr[],int n,int size){
     if(n==0){return;}
