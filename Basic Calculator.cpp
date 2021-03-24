@@ -51,6 +51,5 @@ int main() {
 		cin>>ch;
 
 	} while(ch!='\0');
-
 	return 0;
 }
