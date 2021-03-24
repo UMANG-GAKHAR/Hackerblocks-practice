@@ -7,7 +7,6 @@ using namespace std;
 int cp(vector<vector<vector<vector<int>>>>& dp, int b, int g, int ab, int ag, int ib = 0, int ig = 0) {
     if (!b and !g)
         return 1;
-
     int boys, girls;
     boys = girls = 0;
 
@@ -21,7 +20,6 @@ int cp(vector<vector<vector<vector<int>>>>& dp, int b, int g, int ab, int ag, in
 
     return dp[b][g][ib][ig] = (boys % mod + girls % mod) % mod;
 }
-
 int main() {
     fast
     int b, g, ab, ag;
