@@ -11,7 +11,6 @@ void count1(char arr[],int n){
     }
 }
 int ans2=0;
-
 //Function to check number of non-overlapping aaa in the string
 void count2(char arr[],int n){
     if(n<=0){return;}
