@@ -9,7 +9,6 @@ public:
 		data=d;
 		next=NULL;
 	}
-
 };
 void print (node*head)
 {
