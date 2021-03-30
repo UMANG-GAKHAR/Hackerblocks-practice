@@ -39,8 +39,6 @@ void dfs2(int x,int y)
         if(child_count[x]>child_count[y])
             happy++;
     }
-//    s.insert(x);
-//    cout<<x<<"\t";
 }
 int main()
 {
