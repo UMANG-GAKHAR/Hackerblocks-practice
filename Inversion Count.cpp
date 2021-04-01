@@ -25,24 +25,19 @@ ll merge(vector<ll> &a, int start, int end) {
             count += (mid - i + 1);
         }
     }
-
     while(i <= mid) {
         temp[k++] = a[i++];
     }
-
     while(j <= end) {
         temp[k++] = a[j++];
         count += (mid - i + 1);
     }
-
     j = 0;
     for (i = start; i <= end; ++i) {
         a[i] = temp[j++];
     }
-
     return count;
 }
-
 ll inversionCount(vector<ll> &a, int start, int end) {
     if(start >= end) {
         return 0;
