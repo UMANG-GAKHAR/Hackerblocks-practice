@@ -60,7 +60,6 @@ bool search(node *head,int key)
 	else 
 		return search(head->next,key);
 }
-
 void deletion(node *&head,int key)
 {
 	if(head==NULL)
@@ -73,7 +72,6 @@ void deletion(node *&head,int key)
 		pre=temp;
 		temp=temp->next;
 	}
-
 	if(temp==NULL)
 		return;
 	else if(temp==head)
@@ -82,7 +80,6 @@ void deletion(node *&head,int key)
 		pre->next=temp->next;
 	delete temp;
 }
-
 void deleteathead(node *&head)
 {
 	if(head==NULL)
