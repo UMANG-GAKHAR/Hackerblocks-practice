@@ -32,7 +32,6 @@ int main() {
     ll a,b;
     cin>>a;
     b = mod;
-
     // cout<<gcd(a,b)<<endl;
     ll c = 45;
     if(findmod(a,b) == c){
