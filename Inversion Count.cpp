@@ -13,9 +13,7 @@ ll merge(vector<ll> &a, int start, int end) {
     int i = start;
     int j = mid + 1;
     int k = 0 ;
-
     vector<ll> temp(end-start+1,0);
-
     while(i <= mid && j <= end) {
         if(a[i] < a[j]) {
             temp[k++] = a[i++];
