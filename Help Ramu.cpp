@@ -21,7 +21,6 @@ int main ()
             costr += min(c1*rick[i], c2);
 
         costr = min(costr, c3);
-
         for (i = 0; i < m; i++)
             costc += min(c1*cab[i], c2);
 
