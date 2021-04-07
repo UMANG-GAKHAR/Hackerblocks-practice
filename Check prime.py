@@ -1,6 +1,5 @@
 num = input()
 num=int(num)
-
 # prime numbers are greater than 1
 if num > 1:
     if num < 1000000001:
