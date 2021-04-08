@@ -49,7 +49,6 @@ int main() {
 			cout<<"Invalid operation. Try again."<<endl;
 		}
 		cin>>ch;
-
 	} while(ch!='\0');
 	return 0;
 }
