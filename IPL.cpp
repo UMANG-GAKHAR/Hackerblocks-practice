@@ -1,6 +1,5 @@
 #include <bits/stdc++.h> 
 using namespace std; 
-
 // Returns maximum subsequence sum such that no three 
 // elements are consecutive 
 int maxSumWO3Consec(int arr[], int n) 
