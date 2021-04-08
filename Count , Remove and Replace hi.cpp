@@ -2,7 +2,6 @@
 #include<cstring>
 using namespace std;
 int ans=0;
-//Function which count numbers of hi in the given string
 void count(char arr[],int n){
     if(n==0){return;}
     count(arr,n-1);
