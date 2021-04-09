@@ -31,7 +31,6 @@ ll call(int pos, bool flag, int cn3, int cn6, int cn9){
     }
     ll &ret = dp[pos][cn3][cn6][cn9];
     if(!flag and ret != -1) return ret % MOD;
-
     ll ans = 0;
 
     int k = flag ? v[pos] - '0' : 9;
