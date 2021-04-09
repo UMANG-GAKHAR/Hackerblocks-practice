@@ -43,7 +43,6 @@ void process(long long n,long long m) {
     memset(matrix,0,sizeof(matrix));
     while(m--) {
         cin >> command;
-
         if(command==2) {
             scanf("%lld %lld %lld %lld %lld %lld",&x0,&y0,&z0,&x,&y,&z);
             value1 = calculate_sum(x+1,y+1,z+1)- calculate_sum(x0,y+1,z+1) 
