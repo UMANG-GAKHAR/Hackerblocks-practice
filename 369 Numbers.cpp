@@ -23,7 +23,6 @@ using namespace std;
 int mx;
 string v;
 ll dp[50][18][18][18];// pos, restrict, flag, cn3, cn6, cn9
-
 ll call(int pos, bool flag, int cn3, int cn6, int cn9){
     if(cn3 >= 18 or cn6 >= 18 or cn9 >= 18) return 0;
     if(pos == -1) {
