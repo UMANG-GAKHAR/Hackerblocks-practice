@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 vector<int> allIndices(const vector<int> &v, int key, int i, int idx)
 {
     if (i == v.size())
@@ -19,7 +18,6 @@ vector<int> allIndices(const vector<int> &v, int key, int i, int idx)
         return allIndices(v, key, i + 1, idx);
     }
 }
-
 int main()
 {
     int n;
