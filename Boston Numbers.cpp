@@ -20,7 +20,7 @@ ll primefactors(ll n, vector<ll> p)
             // sum+= i;
             p.push_back(i);
             n = n / i;
-			// COUNT NO OF TIMES THAT PRIME OCCURS AS FACTOR
+	// COUNT NO OF TIMES THAT PRIME OCCURS AS FACTOR
             count++;
         }
         int temp = i;
