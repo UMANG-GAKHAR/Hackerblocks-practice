@@ -6,7 +6,6 @@ public:
     queue<int> q;
     int ms;
     int sum;
-
     MovingAverage(int size) {
         ms=size;
         sum=0;
