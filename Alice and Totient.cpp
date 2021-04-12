@@ -35,7 +35,6 @@ int main(){
     x();
     cin>>t;
     ll num1;
-	//tot[1]=0;
     while(t--){
         cin>>num1; 
         cout<<tot[num1]<<endl;
