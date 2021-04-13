@@ -75,50 +75,6 @@ void evenodd(node*head)                                 //No need to return node
     ee->next=NULL;                                          //Changed
     head=os;                                                //Changed
 }
-
-/*node* reverseg(node*head, int k) {
-    node* current = head;  
-    node* next ;  
-    node* prev = NULL;  
-    int count = 0;  
-      
-    while (current != NULL && count < k)  
-    {  
-        next = current->next;  
-        current->next = prev;  
-        prev = current;  
-        current = next;  
-        count++;  
-    }  
-      
-    if(next != NULL)  {
-    head->next = reverseg(next, k);
-    }  
-
-  return prev;   
-}
-*/
-/*void remove(node*&head) {
- if(head==NULL){
-     return;
- }
- node*s = head;
- node*f = head;
- while(f!=NULL && f->next!=NULL){
-     s = s->next;
-     f = f->next->next;
- }
- if(s!=f){
-     return;
- }
- s = head;
- while(s->next!=f->next) {
-     s = s->next;
-     f = f->next;
- }
- f->next = NULL;
-}
-*/
 void buildlist(node *&head)
 {
   int N;
