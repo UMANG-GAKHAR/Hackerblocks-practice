@@ -5,7 +5,6 @@ string keypad[] = {"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wx", "
 int count = 0;
 void keypadCode(string inp, string out, int i)
 {
-    //Base case
     if (i == inp.size())
     {
         cout << out << " ";
