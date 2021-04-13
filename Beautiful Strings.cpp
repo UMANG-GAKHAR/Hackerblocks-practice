@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int countStrUtil(int dp[][2][3], int n, int bCount = 1, int cCount = 2)
 {
     // Base cases
@@ -21,15 +20,12 @@ int countStrUtil(int dp[][2][3], int n, int bCount = 1, int cCount = 2)
 
     return (dp[n][bCount][cCount] = res);
 }
-
-
 int countStr(int n)
 {
     int dp[n + 1][2][3];
     memset(dp, -1, sizeof(dp));
     return countStrUtil(dp, n);
 }
-
 int main()
 {
     int testCases;
