@@ -12,7 +12,6 @@ void permute(string inp, string out)
         }
         return;
     }
-
     //Recursive case
     for (int i = 0; i < inp.size(); i++)
     {
@@ -23,13 +22,9 @@ void permute(string inp, string out)
 int main()
 {
     cin >> str;
-
     string temp = str;
-
     sort(temp.begin(), temp.end());
-
     permute(temp, "");
-
     return 0;
 }
 
