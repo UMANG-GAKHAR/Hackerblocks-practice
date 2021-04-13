@@ -10,7 +10,6 @@ public:
         ms=size;
         sum=0;
     }
-
     double next(int val) {
         q.push(val);
         sum+=val;
@@ -22,7 +21,6 @@ public:
         return ans;
     }
 };
-
 int main(int argc, char const *argv[])
 {
     int ws;
