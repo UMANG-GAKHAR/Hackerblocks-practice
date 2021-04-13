@@ -13,7 +13,6 @@ int main(){
 	
 	deque<long> q(k);
 	
-	
 	for(long i=0;i<k;i++){
 		while(!q.empty() && a[q.back()] <= a[i]){
 			q.pop_back();
