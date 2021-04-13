@@ -7,7 +7,6 @@ int main()
     char res;
     char freq[256]={0};
 	char str[1000];
-
 	cin>>str;
 	for(int i=0;str[i]!='\0';i++)
 	{
@@ -24,6 +23,5 @@ int main()
 		}
 	}
 	cout<<res<<endl;
-	
 	return 0;
 }
