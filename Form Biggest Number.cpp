@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 #define int unsigned long long
 #define w(x) int x; cin>>x; while(x--)
 void sm()
@@ -10,7 +9,6 @@ void sm()
 bool cmpr(string a, string b) {
    return a+b > b+a;
 }
-
 int32_t main()
 {
 	sm();
