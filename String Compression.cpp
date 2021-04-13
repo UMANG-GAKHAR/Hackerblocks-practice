@@ -6,21 +6,18 @@ string compress(string s)
     {
         return "";
     }
-
     char ch = s[0];
     int i = 1;
     while (i < s.size() && s[i] == ch)
     {
         i++;
     }
-
     string ros = s.substr(i);
     ros = compress(ros);
 
     string charCount = to_string(i);
     return ch + charCount + ros;
 }
-
 int main()
 {
     string s;
