@@ -9,10 +9,8 @@ int cp(vector<vector<vector<vector<int>>>>& dp, int b, int g, int ab, int ag, in
         return 1;
     int boys, girls;
     boys = girls = 0;
-
     if (dp[b][g][ib][ig] != -1)
         return (dp[b][g][ib][ig]);
-
     if (b and ib < ab)
         boys = cp(dp, b - 1, g, ab, ag, ib + 1, 0);
     if (g and ig < ag)
