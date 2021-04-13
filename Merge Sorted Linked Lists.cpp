@@ -25,7 +25,6 @@ void create(int *a,int n){
         temp->next=NULL;
         last->next=temp;
         last=temp;
-
     }
 }
 void create2(int *a,int n){
@@ -43,7 +42,6 @@ void create2(int *a,int n){
         temp->next=NULL;
         last->next=temp;
         last=temp;
-
     }
 }
 void display(struct node *p)
@@ -52,9 +50,7 @@ void display(struct node *p)
         cout<<p->data<<" ";
         p=p->next;
     }
-
 }
-
 void merge(struct node *p,struct node *q){
     struct node *last;
     if(p==NULL){
@@ -115,7 +111,6 @@ int main(){
     }
 	create(arr,n);
 	}
-    
     int n2;
     cin>>n2;
 	if(n2!=0){
@@ -124,11 +119,9 @@ int main(){
     cin>>arr2[i];
     create2(arr2,n2);
 	}
-    
    merge(first,second);
    display(third);
    cout<<"\n";
 	}
     return 0;
-
 }
