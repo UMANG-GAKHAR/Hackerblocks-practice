@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int compareVersion(string version1, string version2) {
     int n1=version1.length(),n2=version2.length(),i=0,j=0;
     while(i<n1 || j<n2){
