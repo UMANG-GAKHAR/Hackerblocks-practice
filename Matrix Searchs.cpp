@@ -28,7 +28,6 @@ int main()
      else
 	 j--;
 	}
-    
     if(!found)
 	cout<< 0;
 	return 0;
