@@ -3,7 +3,6 @@ n = int(input())
 l = len(arr)
 
 def count(arr, l, n):
-
     # we made table to store the ways of making value x
     # it is of size n+1 because considering 0 value as start
     # initializing all values in table as 0 i.e. 0 ways to make that value
