@@ -6,7 +6,6 @@ vector<int> allIndices(const vector<int> &v, int key, int i, int idx)
     {
         return vector<int>(idx);
     }
-
     if (v[i] == key)
     {
         vector<int> remainingAns = allIndices(v, key, i + 1, idx + 1);
