@@ -1,7 +1,6 @@
 #include <bits/stdc++.h> 
 using namespace std; 
 #define ll long long
-
 ll sumBitDifferences(ll a[], ll n) { 
     ll ans = 0; 
     for (ll i=0; i<32;i++) { 
@@ -30,4 +29,3 @@ int main() {
     } 
     return 0; 
 } 
-
