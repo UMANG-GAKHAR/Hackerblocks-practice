@@ -24,9 +24,7 @@ ll primefactors(ll n, vector<ll> p)
             count++;
         }
         int temp = i;
-        int digit_sum = 0; 
-
-		// SUM OF DIGITS HERE AS WELL 
+        int digit_sum = 0;  
         while (temp)
         {
             digit_sum += (temp % 10);
