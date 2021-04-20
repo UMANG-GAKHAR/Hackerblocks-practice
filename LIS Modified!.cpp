@@ -34,7 +34,6 @@ long long Work()
  
 	for (int i = 0; i < n; i ++)
 		a[i] = lower_bound(w, w + m, a[i]) - w;
- 
 	for (int i = 0; i < n; i ++)
 		cin >> w[i];
 	long long ans = 0;
