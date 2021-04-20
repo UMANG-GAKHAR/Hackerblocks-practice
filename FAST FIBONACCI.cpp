@@ -6,7 +6,6 @@ using namespace std;
 #define pb push_back
 ll k;
 vector<ll> a,b,c;
-//Multiply two matrices
 vector<vector<ll> > multiply(const vector<vector<ll> > &A,const vector<vector<ll> > &B ){
     //third matrix mei result store
     vector<vector<ll> > C(k+1,vector<ll>(k+1));
