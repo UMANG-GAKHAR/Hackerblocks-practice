@@ -34,7 +34,6 @@ int main()
     {
         cin >> weights[i];
     }
-
     for (int i = 0; i < n; i++)
     {
         cin >> prices[i];
