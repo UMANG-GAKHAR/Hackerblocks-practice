@@ -29,7 +29,6 @@ int main()
 
     int key;
     cin >> key;
-
     vector<int> ans = allIndices(v, key, 0, 0);
     for (int i = 0; i < ans.size(); i++)
     {
