@@ -15,7 +15,6 @@ using namespace std;
 #define ms(a,b) memset((a),(b),sizeof(a))
 #define max(a,b) ((a>b)?(a):(b))
 #define min(a,b) ((a<b)?(a):(b))
-
 #define abs(x) ((x<0)?(-(x)):(x))
 #define MAX 100005
 #define inf LLONG_MAX
