@@ -13,7 +13,6 @@ int main()
 			cin>>a[i][j];
 		}
 	}
-
     //for loop to go through all the columns was missing
     for(int j=0;j<n;j++)
     {
@@ -30,5 +29,4 @@ int main()
     }
     cout<<"END";
 	return 0;
-
 }
