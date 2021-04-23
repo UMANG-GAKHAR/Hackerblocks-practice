@@ -4,7 +4,6 @@ void magicalPark(char a[][100], int m, int n, int k, int s)
 {
     //To break out of the outter loop:
     int p=0;
-    
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
@@ -14,8 +13,7 @@ void magicalPark(char a[][100], int m, int n, int k, int s)
             if (s < k)
             {
                 //Missing:
-                p=1;
-                
+                p=1;  
                 break;
             }
             if (ch == '.')
