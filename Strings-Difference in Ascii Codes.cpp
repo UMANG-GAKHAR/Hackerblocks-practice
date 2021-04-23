@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 int main() {
     char str[1000];
     int nstr[2000];
