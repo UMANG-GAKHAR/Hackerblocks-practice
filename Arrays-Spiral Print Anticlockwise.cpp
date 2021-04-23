@@ -14,7 +14,6 @@ int main() {
     }
     // code
     int top = 0, bottom = n - 1, left = 0, right = m - 1;
-
     while (top <= bottom && left <= right)
     {
         for (int i = top; i <= bottom; i++)
