@@ -15,7 +15,6 @@ string removeDuplicate(string s)
 
     return s[0] + ros;
 }
-
 int main()
 {
     string s;
