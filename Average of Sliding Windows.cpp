@@ -2,7 +2,6 @@
 using namespace std;
 class MovingAverage {
 public:
-    /** Initialize your data structure here. */
     queue<int> q;
     int ms;
     int sum;
@@ -33,7 +32,5 @@ int main(int argc, char const *argv[])
         cout<<odj.next(num)<<" ";
         cin>>num;
     }
-
     return 0;
 }
-
