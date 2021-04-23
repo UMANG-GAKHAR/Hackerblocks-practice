@@ -22,8 +22,6 @@ typedef long long int lli;
 mt19937                 rng(chrono::steady_clock::now().time_since_epoch().count());
 #define ONLINE_JUDGE
 typedef tree<lli, null_type, less<lli>, rb_tree_tag, tree_order_statistics_node_update> pbds;
-
-
 void zanj0()
 {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
