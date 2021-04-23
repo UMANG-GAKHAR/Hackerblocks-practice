@@ -16,6 +16,5 @@ signed main()
         result=result<<1;
     }
     cout<<result-1;
-
     return 0;
 }
