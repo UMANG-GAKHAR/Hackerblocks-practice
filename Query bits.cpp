@@ -42,7 +42,6 @@ void update(int node,int st,int en,int l,int r,int x)
     update(node*2+2,mid+1,en,l,r,x);
     t[node]=(t[node*2+1]*pow(2,en-mid,mod)%mod+t[node*2+2])%mod; //merging children to form parent
 }
-
 ll query(int node,int st,int en,int l,int r)
 {
     lazy_up(node,st,en); 
