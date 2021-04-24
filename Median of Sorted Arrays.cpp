@@ -10,7 +10,6 @@ while(true){
     int m1,m2,median1,median2;
     median1 = arr1[(hi1 + lo1)>>1];
     median2 = arr2[(hi2 + lo2)>>1];
-
     m1 = (hi1 + lo1)>>1;
     m2 = (hi2 + lo2)>>1;
 
