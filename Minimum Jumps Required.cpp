@@ -4,8 +4,6 @@ int max(int x, int y)
 { 
     return (x > y) ? x : y; 
 } 
-// Returns minimum number of jumps 
-// to reach arr[n-1] from arr[0] 
 int minJumps(int arr[], int n) 
 { 
   
