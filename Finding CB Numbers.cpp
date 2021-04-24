@@ -13,7 +13,6 @@ long stoint(string s)
     }
     return i;
 }
-
 bool is_cb_number(string s)
 {
     long long num = stoint(s);
