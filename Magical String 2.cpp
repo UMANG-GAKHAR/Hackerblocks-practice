@@ -28,7 +28,7 @@ bool isvalid(ll st,ll en)
     }
     return 1;
 }
-ll mincut(ll cur) // recursive top down approach
+ll mincut(ll cur) 
 {
     if(mincutdp[cur]!=-1)
         return mincutdp[cur];
