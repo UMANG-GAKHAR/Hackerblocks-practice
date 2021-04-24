@@ -10,7 +10,6 @@ int main(){
 	}
 	long k;
 	cin>>k;
-	
 	deque<long> q(k);
 	
 	for(long i=0;i<k;i++){
@@ -30,6 +29,5 @@ int main(){
 		q.push_back(i);
 	}
     cout<<a[q.front()];
-	
 	return 0;
 }
