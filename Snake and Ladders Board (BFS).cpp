@@ -1,15 +1,12 @@
 #include<iostream>
 #include <queue>
 using namespace std;
-
 // An entry in queue used in BFS
 struct queueEntry
 {
     int v;   // Vertex number
     int dist; // Distance of this vertex from source
 };
-
-
 int getMinDiceThrows(int move[], int N)
 {
     // The graph has N vertices. Mark all the vertices as
