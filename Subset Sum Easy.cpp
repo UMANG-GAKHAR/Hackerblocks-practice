@@ -21,7 +21,6 @@ bool generate_subsequence(ll *a,ll *b,ll n, ll i,ll j)
         }
         return false;
     }
-    //considering current element
     b[j]=a[i];
     if(generate_subsequence(a,b,n,i+1,j+1))   //if answer found return true
         return true;
