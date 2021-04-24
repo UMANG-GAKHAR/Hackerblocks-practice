@@ -7,7 +7,7 @@ void set(int i,int j,int count){
     if(i<0 || i>=10 || j<0 || j>=10 || board[i][j] == 0)
         return;
     int ans = 0;
-    board[i][j] = 0;//unsets the (i,j) cell
+    board[i][j] = 0;
     hi = max(hi,count+1);//hi stores the maximum of value of visited squares
     set(i-1,j-2,count+1);
     set(i-2,j-1,count+1);
