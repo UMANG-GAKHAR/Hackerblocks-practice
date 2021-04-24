@@ -45,7 +45,7 @@ void update(int node,int st,int en,int l,int r,int x)
 
 ll query(int node,int st,int en,int l,int r)
 {
-    lazy_up(node,st,en); //updating pending lazy updates.
+    lazy_up(node,st,en); 
     if(st>r || en<l)
         return 0;
     if(st>=l && en<=r)
