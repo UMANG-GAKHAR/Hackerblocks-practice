@@ -17,7 +17,6 @@ vector<int> allIndices(const vector<int> &v, int key, int i, int idx)
         return allIndices(v, key, i + 1, idx);
     }
 }
-
 int main()
 {
     int n;
@@ -27,7 +26,6 @@ int main()
     {
         cin >> v[i];
     }
-
     int key;
     cin >> key;
     vector<int> ans = allIndices(v, key, 0, 0);
