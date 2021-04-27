@@ -67,7 +67,6 @@ ll ansit(ll i,ll siz,ll color){
         myans = max(myans,ansit(j+1,siz+v[j].S,color+1));
     }
     return dp[i][siz][color] = myans;
-    
 }
 void solve()
 {
