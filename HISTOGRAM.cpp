@@ -26,7 +26,6 @@ int main() {
 				area=max(area,arr[t]*(i-s.top()-1));
 			}
 		}
-		//Push index of current:
 		s.push(i);
 	}
 	while(!s.empty()){
