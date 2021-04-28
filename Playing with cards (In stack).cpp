@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define MAX 1299709         //10^5 th prime number
-
+#define MAX 1299709        
 bool sieve[MAX];
 vector<int> primes;
 
@@ -19,8 +18,6 @@ void createSieve(){
         }
     }
 }
-
-
 int main() {
     primes.push_back(1);     //Putting 1 as 0th prime number (even though its not)
     createSieve();
