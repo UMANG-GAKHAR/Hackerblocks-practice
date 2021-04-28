@@ -5,7 +5,6 @@ vector<string> vec;
 int cc=0;
 int X[8] = { 2, 1, -1, -2, -2, -1, 1, 2 }; 
 int Y[8] = { 1, 2, 2, 1, -1, -2, -2, -1 }; 
-  
 bool isSafe(int board[][15],int r,int c,int n){
 	for (int i = 0; i < 8; i++) { 
         int x = r + X[i]; 
