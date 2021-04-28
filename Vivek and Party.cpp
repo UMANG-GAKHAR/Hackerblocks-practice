@@ -42,9 +42,7 @@ void topSort(int n){
     }
 
     multiset<int> q;
-
     forI(i, 0, n-1)   if(inDeg[i] == 0)   q.insert(i);
-
     while(!q.empty()){
         int node = *q.begin();
         q.erase(q.begin());
