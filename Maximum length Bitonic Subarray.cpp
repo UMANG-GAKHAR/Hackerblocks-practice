@@ -11,7 +11,6 @@ int main() {
 		for(int i=0;i<n;i++){
 			cin>>arr[i];
 		}
-		// intiallising 1st of inc with 1 it will be inc.
 		inc[0]=1;dec[n-1]=1;
 		// finding range till its inc.
 		for(int i=1;i<n;i++){
