@@ -50,7 +50,6 @@ public:
 		if(temp->isTerminal){
 			ans.push_back(out);
 		}
-
 		for(auto it:temp->childeren){
 			out.push_back(it.first);
 			PrintAll(it.second,out,ans);
