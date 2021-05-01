@@ -5,7 +5,6 @@ using namespace std;
 const int kMaxN = 1e3 + 5;
 
 int el[kMaxN][kMaxN];
-
 bool visited[kMaxN][kMaxN];
 int group_id[kMaxN][kMaxN];
 
