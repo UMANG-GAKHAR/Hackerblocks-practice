@@ -12,7 +12,6 @@ while(true){
     median2 = arr2[(hi2 + lo2)>>1];
     m1 = (hi1 + lo1)>>1;
     m2 = (hi2 + lo2)>>1;
-
     if(hi1 - lo1 == 1){
         return (max(arr1[lo1] , arr2[lo1]) +
         min(arr1[hi1] , arr2[hi2])) / 2;
