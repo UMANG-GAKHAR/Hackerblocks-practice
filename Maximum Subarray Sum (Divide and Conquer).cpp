@@ -19,7 +19,6 @@ ll merge(ll * a,int s,int e)
             sum=0;
     }
     return max;
-
 }
 ll merging(ll *arr,int s,int e)
 {
