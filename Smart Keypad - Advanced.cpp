@@ -6,7 +6,6 @@ vector<string> searchIn = {
     "utkarsh", "divyam", "vidhi", "sparsh", "akku"};
 void phoneKeypad(string inp, string out)
 {
-    //Base case
     if (inp.size() == 0)
     {
         for (string ss : searchIn)
