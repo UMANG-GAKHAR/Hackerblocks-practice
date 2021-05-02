@@ -11,12 +11,10 @@ int main() {
 			cin>>arr[i];sum+=arr[i];
 		}
 		sum=-sum;
-		// inverting the array.
 		for(int i=0;i<n;i++)
 		{
 			arr[i]=-arr[i];
 		}
-
 		// finding max submarray sum for inverted array.
 		int csum=arr[0],maxs=arr[0];
 		for(int i=0;i<n;i++)
