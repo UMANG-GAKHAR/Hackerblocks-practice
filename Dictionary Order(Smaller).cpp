@@ -3,7 +3,6 @@ using namespace std;
 string str;
 void permute(string inp, string out)
 {
-    //Base case
     if (inp.size() == 0)
     {
         if (out < str)
@@ -27,4 +26,3 @@ int main()
     permute(temp, "");
     return 0;
 }
-
