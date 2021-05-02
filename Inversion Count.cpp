@@ -9,7 +9,6 @@ ll merge(vector<ll> &a, int start, int end) {
     }
     int mid = (start+end)/2;
     ll count = 0;
-
     int i = start;
     int j = mid + 1;
     int k = 0 ;
