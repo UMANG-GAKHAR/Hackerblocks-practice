@@ -3,7 +3,6 @@ using namespace std;
 #define MAX 1299709        
 bool sieve[MAX];
 vector<int> primes;
-
 void createSieve(){
     for(long i=0;i<MAX;i++){
         sieve[i] = true;
@@ -21,7 +20,6 @@ void createSieve(){
 int main() {
     primes.push_back(1);     //Putting 1 as 0th prime number (even though its not)
     createSieve();
-
     int n,q;
     cin >> n >> q;
     int size = q+1;
