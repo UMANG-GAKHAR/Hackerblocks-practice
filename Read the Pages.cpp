@@ -35,7 +35,6 @@ int find(int a[], int n, int m, ll sum){
 	}
 	return ans;
 }
-
 int main () {
 	int n,m;	cin>>n>>m;
 	ll sum=0;
