@@ -58,7 +58,6 @@ ll query(int node,int st,int en,int l,int r)
         return p1;
     return (p1*pow(2,min(en,r)-mid,mod)%mod+p2)%mod;
 }
-
 int main()
 {
     ios_base::sync_with_stdio(0);
