@@ -18,7 +18,7 @@ void createSieve(){
     }
 }
 int main() {
-    primes.push_back(1);     //Putting 1 as 0th prime number (even though its not)
+    primes.push_back(1);  
     createSieve();
     int n,q;
     cin >> n >> q;
