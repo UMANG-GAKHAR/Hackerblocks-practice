@@ -2,7 +2,7 @@
 using namespace std;
 int main ()
 {
-    long long int n;    // long long int to capture big value of n
+    long long int n;   
     cin >> n;
 
     long long int sum = 0, pow = 1, t;
