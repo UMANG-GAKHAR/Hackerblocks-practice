@@ -1,7 +1,6 @@
 #include<iostream>
 #include <queue>
 using namespace std;
-// An entry in queue used in BFS
 struct queueEntry
 {
     int v;   // Vertex number
