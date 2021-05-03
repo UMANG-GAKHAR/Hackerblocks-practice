@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 long long n;
 long long arr [100000 + 1];
 long long dp [100000 + 1][4 + 1][16 + 1];
