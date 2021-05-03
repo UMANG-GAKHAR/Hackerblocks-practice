@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 bool ratInMaze(char maze[10][10],int soln[10][10],int i,int j,int n,int m){
-    //To check for the starting and the ending index also
      if(i>n||j>m||i<0||j<0 || soln[i][j]){
         return false;
     }
