@@ -6,7 +6,6 @@ using namespace std;
 class Employee
 {
     public:
-
     int salary;
     string name;
 
