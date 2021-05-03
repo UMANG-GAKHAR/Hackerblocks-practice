@@ -19,7 +19,6 @@ void build(int p,int u,int node)
         t[node] = max(t[node << 1],t[node << 1 | 1]);
     }
 }
-// building the tree 
 void Del(int p,int u,int v,int node)
 {
     if (p == u) t[node] = {0,p};
