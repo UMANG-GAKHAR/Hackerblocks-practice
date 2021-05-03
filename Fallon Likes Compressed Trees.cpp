@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
 int main() {
     #ifndef ONLINE_JUDGE
         // for getting input from input.txt
@@ -31,7 +30,5 @@ int main() {
         int ans = n - 1 - map[r].size();
         cout << ans << endl;
     }
-
-
     return 0;
 }
