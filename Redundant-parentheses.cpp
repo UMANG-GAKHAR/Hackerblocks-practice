@@ -2,9 +2,6 @@
 expression is redundant or not*/
 #include <bits/stdc++.h> 
 using namespace std; 
-
-// Function to check redundant brackets in a 
-// balanced expression 
 bool checkRedundancy(string& str) 
 { 
 	// create a stack of characters 
