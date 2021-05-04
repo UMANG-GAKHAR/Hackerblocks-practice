@@ -16,7 +16,6 @@ using namespace std;
 #define S2(x,y) scanf("%d%d",&x,&y)
 #define P(x) printf("%d\n",x)
 #define all(v) v.begin(),v.end()
-
 bool primes[1000006];
 void sieve()
 {
