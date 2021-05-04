@@ -4,7 +4,6 @@ string move(string s)
 {
     if (s.size() <= 1)
         return s;
-
     string ros = s.substr(1);
     ros = move(ros);
     if (s[0] == 'x')
