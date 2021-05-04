@@ -14,7 +14,6 @@ ll sumBitDifferences(ll a[], ll n) {
     } 
     return ans; 
 } 
-
 int main() {
        ll t;
        cin >> t;
