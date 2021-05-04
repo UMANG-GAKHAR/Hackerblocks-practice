@@ -29,7 +29,6 @@ int main()
         scanf("%d %d", &n, &m);
         assert(2 <= n && n <= N);
         assert(1 <= m && m <= 1LL * n * (n - 1) / 2);
-
         for(int i = 0; i < n; ++i) g[i].clear();
         for(int i = 0; i < m; i++)
         {
