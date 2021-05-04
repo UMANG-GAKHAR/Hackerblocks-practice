@@ -8,7 +8,7 @@ void set(int i,int j,int count){
         return;
     int ans = 0;
     board[i][j] = 0;
-    hi = max(hi,count+1);//hi stores the maximum of value of visited squares
+    hi = max(hi,count+1);
     set(i-1,j-2,count+1);
     set(i-2,j-1,count+1);
     set(i+1,j-2,count+1);
