@@ -9,7 +9,6 @@
 using namespace std;
 int main(){
     ios::sync_with_stdio(0);
-
     string str;
     stack<int> stck;
     int dp[100010] = {0},ans=0;
@@ -27,8 +26,6 @@ int main(){
             stck.pop();//pop '(' from stack
         }
     }
-
     cout<<ans;
-
     return 0;
 }
