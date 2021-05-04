@@ -13,7 +13,6 @@ int main() {
                else
                 cout << "0"<<"  ";             // for in between elements
            }
-
         cout << endl;
     }
     return 0;
