@@ -16,7 +16,6 @@ ll valentine(vector<ll> &choc,vector<ll> &candy,ll i,ll j){
     ll diff = abs(choc[i] - candy[j]) ;
     ll q1 = valentine(choc,candy,i+1,j+1) + diff;     // Pair ith boy with jth girl
     ll q2 = valentine(choc,candy,i,j+1) ;                  
-
     dp[i][j] = min(q1,q2);
     return dp[i][j]; 
 }
