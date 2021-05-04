@@ -28,7 +28,6 @@ while (s<=e){
 return -1 ; 
 }
 int main (){
-
     int n ; 
     cin>>n;//Added
     int a[1000000] ; 
