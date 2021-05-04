@@ -6,7 +6,6 @@ public:
     int data;
     node *left;
     node *right;
-
     node(int d)
     {
         data = d;
