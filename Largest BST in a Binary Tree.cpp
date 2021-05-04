@@ -25,16 +25,12 @@ node* createTree(int inOrder[],int preOrder[],int s,int e){
     root->right=createTree(inOrder,preOrder,index+1,e);
     return root;
 }
-
-
 class Pair{
 public:
     int count;
     int small;
     int big;
 };
-
-
 Pair largestBST(node* root,int& ans){
     Pair p;
     if(root==NULL){
