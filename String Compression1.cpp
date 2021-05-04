@@ -12,7 +12,6 @@ string compress(string s)
     {
         i++;
     }
-
     string ros = s.substr(i);
     ros = compress(ros);
 
