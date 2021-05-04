@@ -20,12 +20,10 @@ void gen_primes(){
         }     
     }
 }
-
 int main(int argc, char const *argv[])
 {
 
     gen_primes();
-
     int t;
     cin>>t;
     while(t--) {
