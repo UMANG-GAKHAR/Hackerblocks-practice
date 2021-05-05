@@ -21,7 +21,6 @@ bool canRead(int *a, int n, int m, int curr){
 }
 int find(int a[], int n, int m, ll sum){
 	long long int ans = INT_MAX;
-	
 	long long int s = a[n-1];
 	long long int e =sum;
 	while(s<=e){
