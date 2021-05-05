@@ -2,7 +2,6 @@
 using namespace std;
 void magicalPark(char a[][100], int m, int n, int k, int s)
 {
-    //To break out of the outter loop:
     int p=0;
     for (int i = 0; i < m; i++)
     {
