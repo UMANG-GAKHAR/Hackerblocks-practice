@@ -17,7 +17,6 @@ ll primefactors(ll n, vector<ll> p)
         count = 0;
         while (n % i == 0)
         {
-            // sum+= i;
             p.push_back(i);
             n = n / i;
 	// COUNT NO OF TIMES THAT PRIME OCCURS AS FACTOR
