@@ -4,7 +4,6 @@ int main ()
 {
     long long int n;   
     cin >> n;
-
     long long int sum = 0, pow = 1, t;
     do
     {
