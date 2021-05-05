@@ -1,7 +1,6 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-
 int key;
 string reversed , cmp_type;
 bool compare(string s1 , string s2)
