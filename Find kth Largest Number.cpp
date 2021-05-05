@@ -28,7 +28,6 @@ int main() {
     cin>>k;
     vector<int>arr;
     int a;
-
     for(int i=0;i<n;i++)
     {
         cin>>a;
