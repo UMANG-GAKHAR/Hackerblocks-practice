@@ -22,7 +22,6 @@ public:
         }
     }
 };
-
 int stringToInteger(string input) {
     return stoi(input);
 }
