@@ -7,7 +7,6 @@ using namespace std;
 map<int,int>m;
 bool mycompare(int a , int b)
 { 
-    //cout << "Comparing " << a << " and " << b << endl;
   return m[a] < m[b];
 }
 int main() {
