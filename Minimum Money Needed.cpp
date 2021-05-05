@@ -10,7 +10,6 @@ long long int minmoney(int a[],int n,int w){
 		return INT_MAX;
 	if(dp[n][w] != -1)
 		return dp[n][w];
-
 	long long int op1 = minmoney(a,n-1,w);
 	if(w < n or a[n-1]==-1)
 		return op1;
