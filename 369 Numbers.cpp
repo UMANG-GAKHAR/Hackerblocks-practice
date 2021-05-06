@@ -32,7 +32,6 @@ ll call(int pos, bool flag, int cn3, int cn6, int cn9){
     if(!flag and ret != -1) return ret % MOD;
     ll ans = 0;
     int k = flag ? v[pos] - '0' : 9;
-
     for(int i = 0; i <= k; i++){
         ans += (call(pos - 1, flag and (i == k), (i == 3) + cn3, (i == 6) + cn6, (i == 9) + cn9) % MOD) % MOD;
         ans %= MOD; 
