@@ -11,9 +11,6 @@ void buildTree(ll *a,ll s,ll e,ll *tree,ll index)
         tree[index]=a[s];
         return;
     }
-    
-    
-    
     //recursive case
     ll mid=(s+e)/2;
     buildTree(a,s,mid,tree,2*index);
