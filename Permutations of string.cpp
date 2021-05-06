@@ -24,7 +24,6 @@ void Display(char storage[][20],int rows){
 bool isLargest(char x[], char y[]){
     int i = 0;
     // int j = 0;
-
     while(x[i] != '\0' && y[i] != '\0'){
         if (x[i] == y[i]){
             i++;    
