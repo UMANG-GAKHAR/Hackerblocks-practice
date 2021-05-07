@@ -21,8 +21,6 @@ void primeseive(int arr[],int cs[]){
 int main() {
 int primearr[1000000]={0};int cs[1000000]={0};
 primeseive(primearr,cs);int t,a,b;
-
-
 cin>>t;
 int noprime;
 while(t--){
