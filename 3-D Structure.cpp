@@ -61,7 +61,6 @@ void process(long long n,long long m) {
             x0 = x;
             y0 = y;
             z0 = z ;
-
             value1 = calculate_sum(x,y,z)- calculate_sum(x0-1,y,z) 
                     - calculate_sum(x,y0-1,z) + calculate_sum(x0-1,y0-1,z);
             value2 = calculate_sum(x,y,z0-1) - calculate_sum(x0-1,y,z0-1)
