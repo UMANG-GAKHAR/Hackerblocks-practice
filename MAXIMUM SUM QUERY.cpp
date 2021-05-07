@@ -16,7 +16,7 @@ void build(int node,int st,int en)
     {
         return;
     }
-    if(st==en) //leaf node
+    if(st==en) 
     {
         tree[node]=m[st];    //total
         ltree[node]=m[st];  //left
