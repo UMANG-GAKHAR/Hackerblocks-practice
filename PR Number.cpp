@@ -1,9 +1,6 @@
-
-
 #include<bits/stdc++.h>
 using namespace std;
 string number;
-
 long long mem[19][2][2][2][2][2][2][3][5][7];
 string to_string_(long long num) {
      stringstream ss_var;
@@ -11,7 +8,6 @@ string to_string_(long long num) {
 
      return ss_var.str();
 }
-
 long long solve(int pos, int flag, int two, int three, int five, int seven, int r2, int r3, int r5, int r7, int prev) {
      long long ans = 0;
      if (number.length() == pos) {
