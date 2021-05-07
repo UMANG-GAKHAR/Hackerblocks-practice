@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int findPivot(int a[],int s,int e){
     if(s>e){
         return -1;
@@ -27,7 +26,6 @@ int findPivot(int a[],int s,int e){
 
     return -1;
 }
-
 int main() {
 	int n;
 	cin>>n;
