@@ -17,7 +17,6 @@ ll knapsack(ll n, ll w, ll *weights, ll *prices)
 
     if (weights[n - 1] <= w)
     {
-      
         include = prices[n - 1] + knapsack(n - 1, w - weights[n - 1], weights, prices);
     }
     exclude = knapsack(n - 1, w, weights, prices);
