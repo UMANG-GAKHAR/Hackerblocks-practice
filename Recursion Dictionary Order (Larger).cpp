@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 vector<string>result;
 void permute(string s,string output,int i)
 {
@@ -20,7 +19,6 @@ void permute(string s,string output,int i)
 		permute(s,output,i+1);
 	}
 }
-
 int main()
 {
 	string s;
