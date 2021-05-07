@@ -15,7 +15,6 @@ using namespace std;
 #define SS(a) scanf("%lli", &a)
 #define P(a) printf("%i", a)
 #define PP(a) printf("%lli", a)
-
 #define FOR(i, a, b) for (int i=a; i<(b); i++)
 #define REP(i, a) for (int i=0; i<(a); i++)
 #define FORd(i,a,b) for (int i = (b)-1; i >= a; i--)
