@@ -10,7 +10,7 @@ int main() {
 		unsigned int ans=0;
 		for(int i=a; i<=b;i++)
 		{
-			int no=i;      /////////////////////////// dont change i as its req in the loop
+			int no=i;     
 			while(no>0)
 			{
 				if((no&1) == 1)
