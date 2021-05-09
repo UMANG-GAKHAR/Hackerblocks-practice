@@ -29,7 +29,6 @@ void BuildTree(vector<vector<ll>> &tree,vector<ll> &arr,int s,int e,int index)
     BuildTree(tree,arr,mid+1,e,index*2+1);
     merge(tree[2*index].begin(),tree[2*index].end(),tree[2*index+1].begin(),tree[2*index+1].end(),back_inserter(tree[index]));
     return;
-
 }
 int main(int argc, char const *argv[])
 {
