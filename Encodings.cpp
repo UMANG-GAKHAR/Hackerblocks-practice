@@ -22,7 +22,6 @@
 using namespace std;
 using ll = long long;
 using ld = long double;
-
 const int MOD = 1e9 + 7, N = 100004;
 ll ps[101];
 ll pw[N], lv[N], rv[N], a[N];
