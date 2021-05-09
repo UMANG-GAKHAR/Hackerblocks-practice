@@ -41,7 +41,7 @@ int dataaa(node*head,node*head2,int d)
     {
         temp=temp->next;
     }
-    while(temp!=NULL && temp2!=NULL)  //change
+    while(temp!=NULL && temp2!=NULL)  
     {
         if(temp->data==temp2->data)
         {
