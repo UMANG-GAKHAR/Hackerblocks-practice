@@ -53,7 +53,6 @@ int dataaa(node*head,node*head2,int d)
     return -1;
 
 }
-
 int main() 
 {
     int n,m;
@@ -78,8 +77,6 @@ int main()
         cin>>d;
         ins(head2,d);
     }
-    //print(head);
-    //print(head2);
     if(n1>=m1)
     {
         cout<<dataaa(head,head2,d);
