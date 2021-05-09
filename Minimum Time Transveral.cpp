@@ -55,7 +55,6 @@ void robot(int tim, pii v)
      lop(i, 0, n)
      {
           if (vst[i]) continue ;
-
           int dis = abs(a[i].x1 - v.F) + abs(a[i].y1 - v.S) + a[i].t;
           vst[i]++;
           robot(tim + dis, {a[i].x2, a[i].y2});
