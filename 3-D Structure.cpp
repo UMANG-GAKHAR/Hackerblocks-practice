@@ -53,7 +53,6 @@ void process(long long n,long long m) {
 
             printf("%lld\n",value1 - value2);
             //PrintMatrix(n);
-
         }
         if(!strcmp(command,"UPDATE")) {
 
