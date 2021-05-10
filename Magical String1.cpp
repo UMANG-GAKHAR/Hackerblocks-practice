@@ -31,7 +31,6 @@ else   // else i have 2 choices either to start again from this character or inc
 ans1=(ans1%mod+ans(i+1,1,m[s[i]])%mod+ans(i+1,l+1,e)%mod)%mod;
 }
 }
-
 return dp[i][l]=ans1;
 
 
