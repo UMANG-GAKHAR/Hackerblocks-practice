@@ -21,7 +21,6 @@ node *createTreeFromTrav(int *inOrder, int *preOrder, int s, int e)
     {
         return NULL;
     }
-    //Rec Case
     node *root = new node(preOrder[i]);
 
     int index = -1;
@@ -33,7 +32,6 @@ node *createTreeFromTrav(int *inOrder, int *preOrder, int s, int e)
             break;
         }
     }
-
     i++;
     root->left = createTreeFromTrav(inOrder, preOrder, s, index - 1);
     root->right = createTreeFromTrav(inOrder, preOrder, index + 1, e);
