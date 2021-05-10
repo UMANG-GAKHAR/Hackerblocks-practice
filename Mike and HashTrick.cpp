@@ -31,7 +31,7 @@ int main() {
         {
             m[a[i]] = ++val;
            
-            ans.push_back(a[i]); // inserting the unique element into the vector
+            ans.push_back(a[i]); 
         }
     }
     sort(ans.begin() , ans.end() , mycompare );
