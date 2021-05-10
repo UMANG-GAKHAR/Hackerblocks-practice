@@ -23,20 +23,13 @@ ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
 
 int main()
 {
-  // freopen("input.txt","r",stdin);
    freopen("output.txt","w",stdout);
   ll t=1;
-  // s(t);
   while(t--){
     ll n;
     cin>>n;
     ll a=1;
     ll b=2;
-    // Note that if we place the tile vertically the problem reduces to finding the number of ways in 2 X n-1 board
-    // If we place the tile horizontally , the problem reduces to finding the number of ways in 2 x n-2  board since 
-    // only 1 tile can only be placed in only horizontal manner above the horizontally placed tile.
-    // So total number of ways : F(n)= F(n+1)+F(n+2).
-    // Or if placed in the opposite manner : F(n) = F(n-1) + F(n-2) = nth fibonacci number
 
     if(n==1)cout<<a<<endl;  // base case 1.
     else if(n==2)cout<<b<<endl; // base case 2.
