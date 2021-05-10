@@ -41,7 +41,6 @@ void process(long long n,long long m) {
     memset(matrix,0,sizeof(matrix));
     while(m--) {
         scanf("%s",command);
-
         if(!strcmp(command,"QUERY")) {
             scanf("%lld %lld %lld %lld %lld %lld",&x0,&y0,&z0,&x,&y,&z);
 
