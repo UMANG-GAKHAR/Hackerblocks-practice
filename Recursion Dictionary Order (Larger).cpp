@@ -3,7 +3,6 @@ using namespace std;
 vector<string>result;
 void permute(string s,string output,int i)
 {
-	//base case
 	if(s[i] == '\0')
     {
 	   if(s>output)
