@@ -16,9 +16,7 @@ void buildTree(ll *a,ll s,ll e,ll *tree,ll index)
     buildTree(a,s,mid,tree,2*index);
     buildTree(a,mid+1,e,tree,2*index+1);
     tree[index]=min(tree[2*index],tree[2*index+1]);
-    return;
-    
-    
+    return;   
 }
 ll Query(ll *tree,ll ss,ll se,ll qs,ll qe,ll index)
 {
