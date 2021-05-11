@@ -17,7 +17,6 @@ using namespace std;
 #define mp(x,y) make_pair(x,y)
 #define pll pair<ll,ll>
 #define pb push_back
-
 ll inf = 1e18;
 ll mod = 1e9 + 7 ;
 ll gcd(ll a , ll b){return b==0?a:gcd(b,a%b);}
