@@ -28,7 +28,6 @@ bool solve(int cnt, int i, int j){
 
         return false;
     }
-
     if(i >= N){
 
         return false;
