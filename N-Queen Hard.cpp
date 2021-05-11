@@ -3,7 +3,6 @@
 using namespace std;
 
 bitset<30> col,d1,d2;
-
 void solve(int r,int n,int &ans){
     if(r==n){ ans++; return;}
 
@@ -15,7 +14,6 @@ void solve(int r,int n,int &ans){
         }
     }
 }
-
 int main(){
     int n;
     cin>>n;
