@@ -15,7 +15,6 @@ int main ()
             cin >> rick[i];
         for (i = 0; i < m; i++)
             cin >> cab[i];
-
         int costr = 0, costc = 0, min_cost;
         for (i = 0; i < n; i++)
             costr += min(c1*rick[i], c2);
