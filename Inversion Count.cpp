@@ -41,7 +41,6 @@ ll inversionCount(vector<ll> &a, int start, int end) {
     }
 
     ll ans = 0;
-
     int mid = (start+end)/2;
 
     ans += inversionCount(a, start, mid);
