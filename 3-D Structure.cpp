@@ -74,7 +74,6 @@ int main() {
     while(cases--) {
 
         long long n,m; scanf("%lld %lld",&n,&m);
-        process(n,m);
-    }
+        process(n,m);    }
     return 0;
 }
