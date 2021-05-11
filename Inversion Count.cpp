@@ -47,7 +47,6 @@ ll inversionCount(vector<ll> &a, int start, int end) {
     ans += inversionCount(a, mid+1, end);
 
     ans += merge(a, start, end);
-
     return ans;
 }
 int main() { 
