@@ -24,7 +24,6 @@ int main() {
             cin>>x;
             v.push_back(x);
         }
-
         unordered_map<pair<int,int>,int,hash_fn> m;
         int sum;
         cin>>sum;
