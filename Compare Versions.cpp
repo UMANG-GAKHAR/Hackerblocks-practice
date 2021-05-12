@@ -27,7 +27,6 @@ int compareVersion(string version1, string version2) {
     }
     return 0;
 }
-
 int main() {
     string s1,s2;
     cin>>s1;
