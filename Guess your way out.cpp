@@ -34,7 +34,7 @@ void f(ll h,ll n,bool dir)
     ll lim = ceil(pow(2ll,h-1));
     if(n <= lim) 
     {
-        if(dir == 0) // going left
+        if(dir == 0)
         {
             ans++;
             f(h-1,n,!dir);
