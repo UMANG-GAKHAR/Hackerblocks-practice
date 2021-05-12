@@ -39,9 +39,6 @@ node *createTreeFromTrav(int *inOrder, int *preOrder, int s, int e)
 }
 
 vector<int> v;
-
-/* Recursive function to print all the nodes at distance k in the 
-   tree (or subtree) rooted with given root. See  */
 void printChildrenAtK(node *root, int k)
 {
     if (root == NULL || k < 0)
