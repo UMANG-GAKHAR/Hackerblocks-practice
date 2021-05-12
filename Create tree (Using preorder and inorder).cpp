@@ -18,7 +18,6 @@ node* buildTree(int* preorder,int* inorder,int s,int e)
 		return NULL;
     static int idx=0;
 	node* root=new node(preorder[idx]);
-    // if( s == e)return root;
 	int index=-1;
 	for(int j=s;j<=e;j++)
 	{
