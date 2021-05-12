@@ -40,8 +40,6 @@ int main(int argc, char const *argv[])
     vector<ll> arr(n);
 
     vector<vector<ll>> tree(4*n+1); 
-
-
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
