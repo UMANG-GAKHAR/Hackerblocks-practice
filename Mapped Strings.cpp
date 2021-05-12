@@ -29,6 +29,5 @@ int main()
     cin >> inp;
 
     mappedStrings(inp, "");
-
     return 0;
 }
