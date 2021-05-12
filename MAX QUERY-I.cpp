@@ -7,7 +7,6 @@ ll query(vector<vector<ll>> &tree,int ss,int se,int qs,int qe,int index,ll k)
     {
         return 0;
     }
-
     else if(ss>=qs && se<=qe)
     {
         return tree[index].end()-lower_bound(tree[index].begin(),tree[index].end(),k);  
