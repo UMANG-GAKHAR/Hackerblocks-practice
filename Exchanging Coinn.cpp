@@ -13,7 +13,6 @@ ll int solve(ll int n,unordered_map<ll int,ll int>&dp)
 	}
 		dp[n]=max(n,solve(n/2,dp)+solve(n/3,dp)+solve(n/4,dp));
 		return dp[n];
-	
 }
 int main()
 {
