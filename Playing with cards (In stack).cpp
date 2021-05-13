@@ -44,7 +44,6 @@ int main() {
         }
         i++;
     }
-    //Print b stacks first ...then a stacks
     for(int i=0;i<size;i++){
         while(!b[i].empty()){
             cout << b[i].top() << endl;
