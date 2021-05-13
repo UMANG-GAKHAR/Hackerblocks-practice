@@ -11,7 +11,6 @@ using namespace std;
 #define p3(x,y,z) p(x)+p(y)+p(z)
 #define F(i,a,b) for(ll i = (ll)(a); i <= (ll)(b); i++)
 #define RF(i,a,b) for(ll i = (ll)(a); i >= (ll)(b); i--)
-
 #define ff first
 #define ss second
 #define mp(x,y) make_pair(x,y)
