@@ -21,7 +21,6 @@ void target_subset_sum(vector<int> arr)
     for (int j = 1; j <= n - 2 ; j++) {
         dp[0][j] = false;
     }
-
     for (int i = 1 ; i <= x ; i++) {
         for (int j = 1  ; j <= n - 2 ; j++) {
             if (arr[i - 1] > j) {
