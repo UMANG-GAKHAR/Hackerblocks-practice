@@ -37,7 +37,7 @@ ll mincut(ll cur)
     ll ans = INF;
     RF(i,cur,1)
     {
-        if(!isvalid(i,cur)) // for minimum number of cuts try all possible valid substrings and take minimum of them
+        if(!isvalid(i,cur)) 
         {
             ans = min(ans,1 + mincut(i));
             break;
