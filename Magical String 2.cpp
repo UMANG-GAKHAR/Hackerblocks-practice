@@ -65,7 +65,7 @@ int main()
         {
             if(!isvalid(j,i))
             {
-                dp2[i] = 1 + dp2[j]; // break if first invalid found coz rest will be invalid too
+                dp2[i] = 1 + dp2[j]; 
                 break;
             }
         }
