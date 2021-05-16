@@ -25,7 +25,6 @@ public:
 int stringToInteger(string input) {
     return stoi(input);
 }
-
 int main() {
     string line;
     while (getline(cin, line)) {
