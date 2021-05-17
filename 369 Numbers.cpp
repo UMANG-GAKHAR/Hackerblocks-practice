@@ -26,7 +26,7 @@ ll call(int pos, bool flag, int cn3, int cn6, int cn9){
     if(cn3 >= 18 or cn6 >= 18 or cn9 >= 18) return 0;
     if(pos == -1) {
         return cn3 == cn6 and cn6 == cn9 and (cn9 != 0);
-    }
+    }//
     ll &ret = dp[pos][cn3][cn6][cn9];
     if(!flag and ret != -1) return ret % MOD;
     ll ans = 0;
