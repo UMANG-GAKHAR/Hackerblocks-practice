@@ -9,7 +9,6 @@ int countStrUtil(int dp[][2][3], int n, int bCount = 1, int cCount = 2)
         return 1;
     if (bCount == 0 && cCount == 0)
         return 1;
-
     // if we had saw this combination previously
     if (dp[n][bCount][cCount] != -1)
         return dp[n][bCount][cCount];
