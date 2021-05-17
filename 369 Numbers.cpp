@@ -66,6 +66,5 @@ int main(){
       if(c3 == c6 and c6 == c9 and c3 != 0) ans++;
       printf("%lli\n", (ans + MOD) % MOD) ;
     }   
-
     return 0;
 } 
