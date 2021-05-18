@@ -10,7 +10,7 @@ int main() {
         for(int j = i;j>0;j--){
             cout<<j<<" ";
         }
-        
+       
         for(int j=1;j<(4*(i-1)-1);j++){
             cout<<" ";
         }
