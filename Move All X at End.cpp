@@ -17,6 +17,5 @@ int main()
     cin >> s;
 
     cout << move(s);
-
     return 0;
 }
