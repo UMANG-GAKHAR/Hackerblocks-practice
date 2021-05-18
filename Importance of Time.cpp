@@ -43,4 +43,4 @@ int main()
     }
     cout << importanceOfTime(q, v);
     return 0;
-}
+
