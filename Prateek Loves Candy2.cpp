@@ -4,8 +4,6 @@ using namespace std;
 #define MAX 10000000
 vector<bool>isPrime (MAX,true);
 unsigned primearray[5761459];
-
-
 void gen_primes(){
     isPrime[0]=isPrime[1]=false;
     for(unsigned i=2;i*i<=MAX;i++){
