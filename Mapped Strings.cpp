@@ -22,7 +22,6 @@ void mappedStrings(string inp, string out)
         }
     }
 }
-
 int main()
 {
     string inp;
