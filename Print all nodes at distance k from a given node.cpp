@@ -16,7 +16,6 @@ public:
 node *createTreeFromTrav(int *inOrder, int *preOrder, int s, int e)
 {
     static  int i = 0;
-    //Base Case
     if (s > e)
     {
         return NULL;
