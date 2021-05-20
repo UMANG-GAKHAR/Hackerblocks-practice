@@ -4,7 +4,6 @@ long long n;
 long long arr [100000 + 1];
 long long dp [100000 + 1][4 + 1][16 + 1];
 long long sett [100000 + 1];
-
 long long rec (long long index, long long order, long long msk){
 
     if(index == n){                                     // base case
@@ -21,8 +20,6 @@ long long rec (long long index, long long order, long long msk){
 
     return st = ans;
 }
-
-
 int main()
 {
     ios::sync_with_stdio(false);cin.tie(0);         // decrease the time of cin, cout
