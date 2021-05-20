@@ -8,7 +8,7 @@ public:
     node *r;
     vector<int> v;
 	node(){
-		l = r = NULL;   //update
+		l = r = NULL;   
 	}
 };
 class trie
