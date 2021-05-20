@@ -1,7 +1,5 @@
 #include "bits/stdc++.h"
-
 using namespace std;
-
 #define  f first
 #define  lgn 25
 #define  endl '\n'
