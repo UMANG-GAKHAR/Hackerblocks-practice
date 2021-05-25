@@ -4,7 +4,6 @@ using namespace std;
 #define MOD 1000000007
 #define ll  long long int
 #define vi  vector<ll>
-
 ll x,y;
 ll gcd(ll a,ll b){ if(a==0) {x=0,y=1; return b;}ll gc=gcd(b%a,a);ll temp;temp=x;x=y-(b/a)*temp;y=temp;return gc;}
 
