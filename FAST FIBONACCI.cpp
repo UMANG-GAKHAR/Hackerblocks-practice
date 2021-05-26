@@ -7,7 +7,6 @@ using namespace std;
 ll k;
 vector<ll> a,b,c;
 vector<vector<ll> > multiply(const vector<vector<ll> > &A,const vector<vector<ll> > &B ){
-    //third matrix mei result store
     vector<vector<ll> > C(k+1,vector<ll>(k+1));
     for(int i=1;i<=k;i++){
         for(int j=1;j<=k;j++){
