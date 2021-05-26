@@ -3,7 +3,6 @@
 #define mod 10000003
 #define ll long long int
 using namespace std;
-
 bool canPaint(ll boards[],ll n,ll no_painters, ll mid){
     ll painter=1;
     ll boardPainted=0;
