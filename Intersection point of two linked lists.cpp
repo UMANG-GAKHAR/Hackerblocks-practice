@@ -51,7 +51,6 @@ int dataaa(node*head,node*head2,int d)
         temp2=temp2->next;
     }
     return -1;
-
 }
 int main() 
 {
