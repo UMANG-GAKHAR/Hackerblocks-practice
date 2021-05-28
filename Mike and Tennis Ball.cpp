@@ -5,7 +5,6 @@ using namespace std;
 ll ans[2100][2100];
 ll na[10000];
 ll nn,nm,ns,nt;
- 
 int main()
 {
     cin>>nn>>nm>>ns;
