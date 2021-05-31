@@ -25,5 +25,3 @@ if(cnt>1):
 	print('false')
 else:
 	print('true')
-
-
