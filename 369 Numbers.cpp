@@ -43,7 +43,6 @@ ll process(string x){
     mx = v.size();
     reverse(v.begin(), v.end());
     return call(mx - 1, true, 0, 0, 0);
-
 }
 int main(){
 #ifndef ONLINE_JUDGE
