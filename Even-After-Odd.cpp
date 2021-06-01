@@ -27,7 +27,7 @@ void insertattail(node*&head, int d)
 		temp->next = new node(d);
         return;
 }
-void evenodd(node*head)                                 //No need to return node
+void evenodd(node*head)                                 
 {
     node *es=NULL;
     node *ee=NULL;
