@@ -25,7 +25,7 @@ int main()
     string output;
     output=s;
 	permute(s,output,0);
-    sort(result.begin(),result.end());//Sorting the outputs
+    sort(result.begin(),result.end());
     for(int i=0;i<result.size();i++)
     cout<<result[i]<<endl;
 	return 0;
