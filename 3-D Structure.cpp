@@ -49,7 +49,6 @@ void process(long long n,long long m) {
 
             value2 = calculate_sum(x,y,z0-1) - calculate_sum(x0-1,y,z0-1)
                     - calculate_sum(x,y0-1,z0-1)  + calculate_sum(x0-1,y0-1,z0-1);
-
             printf("%lld\n",value1 - value2);
             //PrintMatrix(n);
         }
