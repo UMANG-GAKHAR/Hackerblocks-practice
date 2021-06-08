@@ -43,7 +43,6 @@ void process(long long n,long long m) {
         scanf("%s",command);
         if(!strcmp(command,"QUERY")) {
             scanf("%lld %lld %lld %lld %lld %lld",&x0,&y0,&z0,&x,&y,&z);
-
             value1 = calculate_sum(x,y,z)- calculate_sum(x0-1,y,z) 
                     - calculate_sum(x,y0-1,z) + calculate_sum(x0-1,y0-1,z);
 
