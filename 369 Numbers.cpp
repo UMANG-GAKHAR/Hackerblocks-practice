@@ -37,7 +37,6 @@ ll call(int pos, bool flag, int cn3, int cn6, int cn9){
     }
     return flag ? ans : ret = ans;
 }
-
 ll process(string x){
     v = x;
     mx = v.size();
