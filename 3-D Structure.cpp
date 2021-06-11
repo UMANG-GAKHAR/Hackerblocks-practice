@@ -52,7 +52,6 @@ void process(long long n,long long m) {
             //PrintMatrix(n);
         }
         if(!strcmp(command,"UPDATE")) {
-
             scanf("%lld %lld %lld %lld",&x,&y,&z,&val);
             x0 = x;
             y0 = y;
