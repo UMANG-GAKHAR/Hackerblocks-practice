@@ -1,2 +1,2 @@
-# Hackerblocks-Practice
+# Hackerblocks-Practice-Problems
 ## Coding-Blocks
